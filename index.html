@@ -1,48 +1,1631 @@
-<!doctype html>
-<html lang="en" class="scroll-smooth">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>William Amaza (0xWilly) - Portfolio</title>
-    <link rel="icon" type="image/jpeg" href="./pfp.jpg" />
-    <meta name="description" content="Portfolio of William Amaza (0xWilly), Front-End Web Developer learning Python, Founder of SubHub26, and Web3 Ambassador for Usetria and Taunt Live." />
-    <meta property="og:title" content="William Amaza (0xWilly) - Portfolio" />
-    <meta property="og:description" content="Portfolio of William Amaza (0xWilly), Front-End Web Developer learning Python, Founder of SubHub26, and Web3 Ambassador for Usetria and Taunt Live." />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://0xwillydev.github.io" />
-    <link rel="canonical" href="https://0xwillydev.github.io" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="eHvFYcADICj-OuETxzBpsef040EE92STcHlC6EHhaJ8" />
+
+    <!-- Primary SEO (unique to SubHub26) -->
+    <title>SubHub26 | Buy X Premium, Netflix, ChatGPT, Grok, YouTube & VPN in Nigeria</title>
+    <meta name="description" content="SubHub26 is Nigeria’s cheap premium subscription shop. Buy X Premium from ₦8,500, Netflix Premium, ChatGPT Pro, Grok Pro, YouTube Premium, Telegram Premium, Canva, CapCut and VPNs. Fast WhatsApp delivery on subhub26.com.ng.">
+    <meta name="keywords" content="SubHub, SubHub26, SubHub Nigeria, subhub26.com.ng, SubHub 26, buy X Premium Nigeria, cheap Netflix Nigeria, ChatGPT Pro Nigeria, Grok Pro price, YouTube Premium Nigeria, Telegram Premium Nigeria, Telegram Stars Nigeria, NordVPN Nigeria, ExpressVPN Nigeria, Canva Pro Nigeria, CapCut Pro Nigeria, cheap VPN Nigeria">
+    <meta name="author" content="SubHub26">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="theme-color" content="#F8FAFC">
+    <link rel="canonical" href="https://subhub26.com.ng/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="SubHub26">
+    <meta property="og:locale" content="en_NG">
+    <meta property="og:url" content="https://subhub26.com.ng/">
+    <meta property="og:title" content="SubHub26 | Cheap X Premium, Netflix, ChatGPT & VPN in Nigeria">
+    <meta property="og:description" content="Buy X Premium, Netflix Premium, ChatGPT Pro, Grok Pro, YouTube Premium, Telegram and VPNs in Naira. Order on WhatsApp via subhub26.com.ng.">
+    <meta property="og:image" content="https://subhub26.com.ng/subhub-logo.png">
+    <meta property="og:image:alt" content="SubHub26 logo">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="SubHub26 | Cheap X Premium, Netflix, ChatGPT & VPN in Nigeria">
+    <meta name="twitter:description" content="X Premium, Netflix, ChatGPT, Grok, YouTube, Telegram and VPNs at discounted Naira prices. Order on WhatsApp — subhub26.com.ng">
+    <meta name="twitter:image" content="https://subhub26.com.ng/subhub-logo.png">
+
+    <!-- Geo / local signal -->
+    <meta name="geo.region" content="NG">
+    <meta name="geo.placename" content="Nigeria">
+
+    <!-- Favicon -->
+    <link rel="icon" href="subhub-logo.png" type="image/png">
+    <link rel="apple-touch-icon" href="subhub-logo.png">
+
+    <!-- Structured data: Organization + WebSite -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://subhub26.com.ng/#organization",
+          "name": "SubHub26",
+          "alternateName": ["SubHub", "SubHub 26", "Sub Hub 26", "SubHub Nigeria"],
+          "url": "https://subhub26.com.ng/",
+          "logo": "https://subhub26.com.ng/subhub-logo.png",
+          "sameAs": [
+            "https://x.com/subhub26_ng",
+            "https://x.com/0xwilly_"
+          ],
+          "description": "SubHub26 sells discounted premium subscriptions in Nigeria including X Premium, Netflix, ChatGPT Pro, Grok Pro, YouTube Premium, Telegram Premium and VPN services with fast WhatsApp delivery.",
+          "areaServed": {
+            "@type": "Country",
+            "name": "Nigeria"
+          },
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer support",
+            "availableLanguage": ["English"],
+            "url": "https://wa.link/71id1z"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://subhub26.com.ng/#website",
+          "url": "https://subhub26.com.ng/",
+          "name": "SubHub26",
+          "alternateName": ["SubHub", "SubHub Nigeria"],
+          "description": "Affordable premium subscriptions in Nigeria — X Premium, Netflix, ChatGPT, Grok, YouTube, Telegram & VPN.",
+          "publisher": { "@id": "https://subhub26.com.ng/#organization" },
+          "inLanguage": "en-NG",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://subhub26.com.ng/?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        }
+      ]
+    }
+    </script>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <script>
       (function() {
-        try {
-          var originalFetch = window.fetch;
-          Object.defineProperty(window, 'fetch', {
-            get: function() { return originalFetch; },
-            set: function(fn) { originalFetch = fn; },
-            configurable: true,
-            enumerable: true
-          });
-        } catch (e) {}
-
-        try {
-          const stored = localStorage.getItem('theme');
-          const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-          if (stored === 'dark' || (!stored && prefersDark)) {
-            document.documentElement.classList.add('dark');
-          } else {
-            document.documentElement.classList.remove('dark');
-          }
-        } catch (e) {}
+        const origWarn = console.warn;
+        console.warn = function(msg) {
+          if (typeof msg === 'string' && msg.includes('cdn.tailwindcss.com')) return;
+          origWarn.apply(console, arguments);
+        };
       })();
     </script>
-    <script type="module" crossorigin src="./index-1v_d7ZG9.js"></script>
-    <link rel="stylesheet" crossorigin href="./index-CvOsp3_f.css">
-  </head>
-  <body class="bg-slate-50 dark:bg-[#0b0f19] text-slate-900 dark:text-slate-100 antialiased selection:bg-blue-500/20 selection:text-blue-600 dark:selection:text-blue-400 font-sans">
-    <div id="root"></div>
-  </body>
-</html>
+    
+    <!-- Firebase SDKs -->
+    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css?v=20260923lightfix">
 
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "SubHub26 premium subscriptions in Nigeria",
+      "itemListElement": [
+        {"@type":"ListItem","position":1,"item":{"@type":"Product","name":"X Premium","description":"Buy X Premium in Nigeria from ₦8,500.","url":"https://subhub26.com.ng/x-premium","offers":{"@type":"AggregateOffer","priceCurrency":"NGN","lowPrice":"8500","highPrice":"13500","availability":"https://schema.org/InStock"}}},
+        {"@type":"ListItem","position":2,"item":{"@type":"Product","name":"ChatGPT Pro","description":"ChatGPT Pro in Nigeria. Currently out of stock, available soon.","url":"https://subhub26.com.ng/ai","offers":{"@type":"Offer","priceCurrency":"NGN","price":"8500","availability":"https://schema.org/OutOfStock"}}},
+        {"@type":"ListItem","position":3,"item":{"@type":"Product","name":"Grok AI Pro","description":"Grok AI Pro in Nigeria from ₦20,000.","url":"https://subhub26.com.ng/ai","offers":{"@type":"AggregateOffer","priceCurrency":"NGN","lowPrice":"20000","highPrice":"33000","availability":"https://schema.org/InStock"}}},
+        {"@type":"ListItem","position":4,"item":{"@type":"Product","name":"YouTube Premium","description":"YouTube Premium in Nigeria from ₦1,000.","url":"https://subhub26.com.ng/youtube","offers":{"@type":"AggregateOffer","priceCurrency":"NGN","lowPrice":"1000","highPrice":"3500","availability":"https://schema.org/InStock"}}},
+        {"@type":"ListItem","position":5,"item":{"@type":"Product","name":"Telegram Premium","description":"Telegram Premium in Nigeria from ₦19,800.","url":"https://subhub26.com.ng/telegram","offers":{"@type":"AggregateOffer","priceCurrency":"NGN","lowPrice":"19800","highPrice":"49000","availability":"https://schema.org/InStock"}}},
+        {"@type":"ListItem","position":6,"item":{"@type":"Product","name":"Netflix Premium","description":"Netflix Premium in Nigeria from ₦4,000.","url":"https://subhub26.com.ng/netflix","offers":{"@type":"AggregateOffer","priceCurrency":"NGN","lowPrice":"4000","highPrice":"8000","availability":"https://schema.org/InStock"}}},
+        {"@type":"ListItem","position":7,"item":{"@type":"Product","name":"VPN Services","description":"NordVPN, ExpressVPN, Proton, IPVanish and HMA from ₦1,000.","url":"https://subhub26.com.ng/vpn","offers":{"@type":"AggregateOffer","priceCurrency":"NGN","lowPrice":"1000","highPrice":"3400","availability":"https://schema.org/InStock"}}},
+        {"@type":"ListItem","position":8,"item":{"@type":"Product","name":"Canva Pro","description":"Canva Pro in Nigeria from ₦1,700.","url":"https://subhub26.com.ng/editing","offers":{"@type":"AggregateOffer","priceCurrency":"NGN","lowPrice":"1700","highPrice":"3200","availability":"https://schema.org/InStock"}}},
+        {"@type":"ListItem","position":9,"item":{"@type":"Product","name":"CapCut Pro","description":"CapCut Pro in Nigeria from ₦6,000.","url":"https://subhub26.com.ng/editing","offers":{"@type":"Offer","priceCurrency":"NGN","price":"6000","availability":"https://schema.org/InStock"}}}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type":"Question","name":"What is SubHub?","acceptedAnswer":{"@type":"Answer","text":"SubHub26 sells discounted premium subscriptions in Nigeria including X Premium, ChatGPT, Grok, YouTube Premium, Netflix, Telegram and VPNs. Orders are completed on WhatsApp."}},
+        {"@type":"Question","name":"How does ordering work on SubHub26?","acceptedAnswer":{"@type":"Answer","text":"Choose a plan on subhub26.com.ng, then order on WhatsApp to confirm payment and activation."}},
+        {"@type":"Question","name":"How long does activation take?","acceptedAnswer":{"@type":"Answer","text":"Most SubHub26 orders activate within minutes after payment is confirmed."}},
+        {"@type":"Question","name":"What payment methods does SubHub26 accept?","acceptedAnswer":{"@type":"Answer","text":"Bank transfer and cryptocurrency. Payment details are shared on WhatsApp."}}
+      ]
+    }
+    </script>
+</head>
+<body class="bg-zinc-950 text-zinc-200">
+
+    <!-- Navbar -->
+    <nav class="border-b border-zinc-800 bg-zinc-950/95 backdrop-blur sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6">
+            <div class="flex items-center justify-between h-[3.75rem] sm:h-16 gap-2">
+                <a href="/" class="flex items-center gap-2 shrink-0" onclick="closeMobileMenu()">
+                    <img src="subhub-logo.png" alt="SubHub26 - Affordable Premium Subscriptions Nigeria" class="h-11 sm:h-12 w-auto object-contain">
+                </a>
+
+                <div class="hidden md:flex items-center gap-6 text-sm">
+                    <a href="/popular" class="hover:text-white transition-colors">Popular</a>
+                    <a href="/services" class="hover:text-white transition-colors">Services</a>
+                    <a href="/how-it-works" class="hover:text-white transition-colors">How it Works</a>
+                    <a href="/faq" class="hover:text-white transition-colors">FAQ</a>
+                    <button id="nav-dashboard" onclick="showDashboard()" class="hidden text-blue-400 hover:text-blue-300 font-medium transition-colors">
+                        <i class="fa-solid fa-gauge-high mr-1"></i> Dashboard
+                    </button>
+                </div>
+
+                <!-- Search (desktop) -->
+                <div class="relative hidden sm:block">
+                    <i class="fa-solid fa-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-zinc-500 text-sm"></i>
+                    <input id="site-search" type="search" placeholder="Search services..." 
+                           readonly
+                           onclick="openServiceSearch()"
+                           onfocus="openServiceSearch()"
+                           class="w-40 lg:w-52 bg-zinc-900 border border-zinc-700 rounded-xl pl-9 pr-3 py-2 text-sm focus:outline-none focus:border-emerald-500 placeholder:text-zinc-500 cursor-pointer">
+                </div>
+
+                <div class="flex items-center gap-1.5 sm:gap-3">
+                    <button onclick="openServiceSearch()" class="sm:hidden w-9 h-9 rounded-xl border border-zinc-700 flex items-center justify-center text-zinc-400 hover:text-white" aria-label="Search services">
+                        <i class="fa-solid fa-magnifying-glass text-sm"></i>
+                    </button>
+
+                    <button id="theme-toggle" onclick="toggleTheme()" title="Toggle dark / light mode" aria-label="Toggle theme" class="theme-btn">
+                        <i class="fa-solid fa-sun icon-sun"></i>
+                        <i class="fa-solid fa-moon icon-moon"></i>
+                    </button>
+
+                    <button id="notif-btn" onclick="toggleNotifPanel(event)" class="hidden relative w-9 h-9 sm:w-10 sm:h-10 rounded-xl border border-zinc-700 flex items-center justify-center text-zinc-300 hover:text-white hover:bg-zinc-900 transition-all" aria-label="Notifications">
+                        <i class="fa-solid fa-bell"></i>
+                        <span id="notif-badge" class="hidden absolute -top-1.5 -right-1.5 min-w-[1.1rem] h-[1.1rem] px-1 bg-blue-600 text-white text-[10px] font-bold rounded-full flex items-center justify-center">0</span>
+                    </button>
+
+                    <button onclick="toggleCart()" class="relative flex items-center gap-2 px-2.5 sm:px-4 py-2 rounded-xl border border-zinc-700 hover:bg-zinc-900 transition-all text-sm font-medium">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span class="hidden sm:inline">Cart</span>
+                        <span id="cart-count" class="absolute -top-2 -right-2 bg-blue-600 text-white text-xs font-bold w-5 h-5 rounded-full flex items-center justify-center hidden">0</span>
+                    </button>
+
+                    <div id="user-area" class="hidden sm:flex items-center gap-2">
+                        <!-- Login / Signup on desktop -->
+                    </div>
+
+                    <a href="https://x.com/subhub26_ng" target="_blank" rel="noopener" title="SubHub on X"
+                       class="hidden sm:flex w-9 h-9 rounded-xl border border-zinc-700 items-center justify-center text-zinc-300 hover:text-white hover:bg-zinc-900 transition-all">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+
+                    <a href="https://wa.link/71id1z" target="_blank"
+                       class="hidden sm:flex items-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white text-sm font-semibold px-4 py-2.5 rounded-xl transition-all">
+                        <i class="fa-brands fa-whatsapp text-lg"></i>
+                        <span>Order</span>
+                    </a>
+
+                    <!-- Mobile hamburger -->
+                    <button id="menu-toggle" onclick="toggleMobileMenu()" class="md:hidden w-10 h-10 rounded-xl border border-zinc-700 flex items-center justify-center text-zinc-200 hover:bg-zinc-900 transition-all" aria-label="Open menu">
+                        <i id="menu-toggle-icon" class="fa-solid fa-bars text-lg"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+
+    <div id="notif-panel" class="notif-panel hidden" onclick="event.stopPropagation()">
+        <div class="notif-panel-head">
+            <strong>Notifications</strong>
+            <button type="button" onclick="markAllNotifsRead()" class="text-xs font-semibold text-blue-600">Mark all read</button>
+        </div>
+        <div id="notif-list" class="notif-panel-list">
+            <p class="notif-empty">No notifications yet</p>
+        </div>
+    </div>
+
+    <!-- Instant service search overlay -->
+    <div id="search-overlay" class="search-overlay hidden" onclick="if(event.target===this)closeServiceSearch()">
+        <div class="search-panel" onclick="event.stopPropagation()">
+            <div class="search-panel-head">
+                <i class="fa-solid fa-magnifying-glass text-zinc-400"></i>
+                <input id="service-search-input" type="search" placeholder="Search services..." autocomplete="off"
+                       oninput="renderServiceSearch(this.value)">
+                <button type="button" onclick="closeServiceSearch()" aria-label="Close search"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div id="service-search-list" class="search-panel-list"></div>
+        </div>
+    </div>
+
+    <!-- Mobile menu overlay + drawer (SubVault-style) -->
+    <div id="mobile-menu-overlay" class="mobile-menu-overlay hidden" onclick="closeMobileMenu()"></div>
+    <aside id="mobile-menu" class="mobile-menu" aria-hidden="true">
+        <div class="mobile-menu-header">
+            <div class="flex items-center gap-2">
+                <img src="subhub-logo.png" alt="SubHub26" class="h-9 w-auto object-contain">
+                <span class="font-display font-bold text-lg">SubHub26</span>
+            </div>
+            <button onclick="closeMobileMenu()" class="w-9 h-9 rounded-full flex items-center justify-center text-zinc-400 hover:bg-zinc-100 dark:hover:bg-zinc-800" aria-label="Close menu">
+                <i class="fa-solid fa-xmark text-xl"></i>
+            </button>
+        </div>
+        <nav class="mobile-menu-links">
+            <a href="/" class="mobile-menu-link active" onclick="closeMobileMenu()">Home</a>
+            <a href="/popular" class="mobile-menu-link" onclick="closeMobileMenu()">Popular</a>
+            <a href="/services" class="mobile-menu-link" onclick="closeMobileMenu()">Services</a>
+            <a href="/how-it-works" class="mobile-menu-link" onclick="closeMobileMenu()">How it Works</a>
+            <a href="/faq" class="mobile-menu-link" onclick="closeMobileMenu()">FAQ</a>
+            <a href="/reviews" class="mobile-menu-link" onclick="closeMobileMenu()">Reviews</a>
+            <button type="button" id="mobile-nav-dashboard" onclick="closeMobileMenu(); showDashboard();" class="mobile-menu-link text-left hidden">Dashboard</button>
+            <button type="button" id="mobile-nav-login" onclick="closeMobileMenu(); showLogin();" class="mobile-menu-link text-left">Sign in</button>
+            <button type="button" id="mobile-nav-signup" onclick="closeMobileMenu(); showSignup();" class="mobile-menu-link text-left">Create account</button>
+            <button type="button" id="mobile-nav-logout" onclick="closeMobileMenu(); logoutUser();" class="mobile-menu-link text-left hidden text-red-500">Log out</button>
+        </nav>
+        <div class="mobile-menu-footer">
+            <a href="https://x.com/subhub26_ng" target="_blank" rel="noopener" class="mobile-menu-link" onclick="closeMobileMenu()">
+                <i class="fa-brands fa-x-twitter mr-2"></i> @subhub26_ng
+            </a>
+            <a href="https://x.com/0xwilly_" target="_blank" rel="noopener" class="mobile-menu-link" onclick="closeMobileMenu()">
+                <i class="fa-brands fa-x-twitter mr-2"></i> @0xwilly_ · Developer
+            </a>
+            <a href="https://wa.link/71id1z" target="_blank" class="mobile-menu-wa" onclick="closeMobileMenu()">
+                <i class="fa-brands fa-whatsapp text-xl"></i>
+                Order on WhatsApp
+            </a>
+        </div>
+    </aside>
+
+    <!-- Hero -->
+    <header class="hero-glow relative overflow-hidden">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 pt-16 pb-14 text-center">
+            <div class="max-w-3xl mx-auto">
+                <div class="hero-trust-badge">
+                    <span class="hero-trust-dot"></span>
+                    <span class="hero-trust-text">Safe and Trusted hub for digital services</span>
+                </div>
+                <h1 class="font-display text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.15]">
+                    Go Premium without<br>
+                    <span style="color:#1D4ED8">breaking the bank.</span>
+                </h1>
+                <p class="mt-5 text-lg text-zinc-400 max-w-2xl mx-auto leading-relaxed">
+                    Get X Premium, Netflix Premium, ChatGPT Pro, Grok Ai Pro, Gemini Pro, YouTube Premium, Telegram Premium, VPN Premium, and more delivered fast swiftly at the best rates in Nigeria.
+                </p>
+
+                <!-- Trust Stat -->
+                <div class="mt-5 flex items-center justify-center gap-2 text-sm">
+                    <div class="flex -space-x-2">
+                        <div class="w-6 h-6 bg-blue-600 rounded-full ring-2 ring-zinc-950"></div>
+                        <div class="w-6 h-6 bg-cyan-500 rounded-full ring-2 ring-zinc-950"></div>
+                        <div class="w-6 h-6 bg-sky-500 rounded-full ring-2 ring-zinc-950"></div>
+                    </div>
+                    <span class="hero-social-proof">Join thousands of Nigerians saving monthly</span>
+                </div>
+
+                <div class="flex flex-wrap justify-center gap-3 mt-8">
+                    <a href="/services" class="bg-white text-zinc-950 font-semibold px-7 py-3.5 rounded-xl hover:bg-zinc-100 transition-all flex items-center gap-2 shadow-lg shadow-white/10">
+                        Browse Catalog
+                    </a>
+                    <button id="hero-signup-btn" onclick="showSignup()" class="border border-emerald-500/40 hover:bg-emerald-500/10 font-medium px-7 py-3.5 rounded-xl transition-all flex flex-col items-center leading-tight">
+                        <span>Create Free Account</span>
+                        <span class="text-[10px] text-emerald-400 font-semibold tracking-wide">Recommended</span>
+                    </button>
+                    <a href="/how-it-works" class="border border-zinc-700 hover:bg-zinc-900 font-medium px-7 py-3.5 rounded-xl transition-all flex items-center gap-2">
+                        How It Works
+                    </a>
+                    <a href="https://wa.link/71id1z" target="_blank" class="hidden sm:flex items-center gap-2 text-emerald-400 hover:text-emerald-300 font-medium px-4 py-3.5 transition-all">
+                        <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Popular Subscriptions (front) -->
+    <section id="popular" class="max-w-6xl mx-auto px-4 sm:px-6 pt-8 pb-12 fade-in">
+        <div class="mb-6">
+            <h2 class="font-display text-3xl font-bold tracking-tight">Popular Subscriptions</h2>
+            <p class="text-zinc-400 mt-2">The plans SubHub customers buy most.</p>
+        </div>
+        <a href="/services" class="catalog-jump mb-5">See all services <i class="fa-solid fa-arrow-right text-xs"></i></a>
+        <div class="pop-list">
+            <a href="/x-premium" class="pop-row">
+                <img src="images/x.png" alt="X Premium">
+                <div class="pop-body">
+                    <div class="pop-top">
+                        <h3>X Premium</h3>
+                        <span class="avail">Available</span>
+                    </div>
+                    <p>Blue check + Grok access</p>
+                    <div class="pop-meta"><i class="fa-regular fa-clock"></i> From 3 months</div>
+                    <div class="pop-bottom">
+                        <div>
+                            <span class="from">From</span>
+                            <strong>₦8,500</strong>
+                            <span class="usd-tag">$5.99</span>
+                        </div>
+                        <span class="view">See prices <i class="fa-solid fa-arrow-right"></i></span>
+                    </div>
+                </div>
+            </a>
+            <a href="/ai" class="pop-row oos">
+                <img src="images/chatgpt.png" alt="ChatGPT Pro">
+                <div class="pop-body">
+                    <div class="pop-top">
+                        <h3>ChatGPT Pro</h3>
+                        <span class="oos-badge">Available soon</span>
+                    </div>
+                    <p>Full GPT-4o access</p>
+                    <div class="pop-meta"><i class="fa-regular fa-clock"></i> 1 month</div>
+                    <div class="pop-bottom">
+                        <div>
+                            <span class="from">From</span>
+                            <strong>₦8,500</strong>
+                            <span class="usd-tag">$5.99</span>
+                        </div>
+                        <span class="view view-oos">Available soon</span>
+                    </div>
+                </div>
+            </a>
+            <a href="/youtube" class="pop-row">
+                <img src="images/youtube.png" alt="YouTube Premium">
+                <div class="pop-body">
+                    <div class="pop-top">
+                        <h3>YouTube Premium</h3>
+                        <span class="avail">Available</span>
+                    </div>
+                    <p>Ad-free videos + YouTube Music</p>
+                    <div class="pop-meta"><i class="fa-regular fa-clock"></i> 1 month</div>
+                    <div class="pop-bottom">
+                        <div>
+                            <span class="from">From</span>
+                            <strong>₦1,000</strong>
+                            <span class="usd-tag">$0.70</span>
+                        </div>
+                        <span class="view">See prices <i class="fa-solid fa-arrow-right"></i></span>
+                    </div>
+                </div>
+            </a>
+            <a href="/telegram" class="pop-row">
+                <img src="images/Telegram.png" alt="Telegram Premium">
+                <div class="pop-body">
+                    <div class="pop-top">
+                        <h3>Telegram Premium</h3>
+                        <span class="avail">Available</span>
+                    </div>
+                    <p>Premium features on your account</p>
+                    <div class="pop-meta"><i class="fa-regular fa-clock"></i> From 3 months</div>
+                    <div class="pop-bottom">
+                        <div>
+                            <span class="from">From</span>
+                            <strong>₦19,800</strong>
+                            <span class="usd-tag">$13.94</span>
+                        </div>
+                        <span class="view">See prices <i class="fa-solid fa-arrow-right"></i></span>
+                    </div>
+                </div>
+            </a>
+            <a href="/vpn" class="pop-row">
+                <img src="images/nordvpn.png" alt="VPN Services">
+                <div class="pop-body">
+                    <div class="pop-top">
+                        <h3>VPN Services</h3>
+                        <span class="avail">Available</span>
+                    </div>
+                    <p>Nord • Express • Proton • HMA</p>
+                    <div class="pop-meta"><i class="fa-regular fa-clock"></i> From 7 days</div>
+                    <div class="pop-bottom">
+                        <div>
+                            <span class="from">From</span>
+                            <strong>₦1,000</strong>
+                            <span class="usd-tag">$0.70</span>
+                        </div>
+                        <span class="view">See prices <i class="fa-solid fa-arrow-right"></i></span>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Savings Ledger -->
+    <section class="max-w-6xl mx-auto px-4 sm:px-6 py-14 fade-in">
+        <div class="text-center mb-8">
+            <h2 class="font-display text-3xl font-bold tracking-tight">Save <span style="color:#1D4ED8">50–70%</span> Off Regular Prices</h2>
+            <p class="text-zinc-400 mt-2">See how much you actually save with SubHub</p>
+        </div>
+
+        <div class="max-w-md mx-auto">
+            <div class="bg-zinc-900/80 border border-zinc-700/80 rounded-3xl p-6 sm:p-8 relative overflow-hidden shadow-2xl">
+                <!-- Header -->
+                <div class="flex items-center justify-between mb-6">
+                    <div class="text-xs font-semibold tracking-widest text-zinc-400 uppercase">SubHub Ledger Spec</div>
+                    <div class="tag">SAVE 50–70%</div>
+                </div>
+
+                <!-- Official Cost -->
+                <div class="mb-5">
+                    <div class="text-[11px] uppercase tracking-wider text-zinc-500 mb-1">Total Official Cost</div>
+                    <div class="text-2xl font-bold text-red-400/90 line-through decoration-red-400/60">₦22,800 <span class="usd-tag">$16.06</span></div>
+                </div>
+
+                <!-- SubHub Cost -->
+                <div class="mb-6">
+                    <div class="text-[11px] uppercase tracking-wider text-zinc-500 mb-1">SubHub Plan Cost</div>
+                    <div class="text-3xl font-bold text-zinc-200 ledger-plan-cost">₦8,500 <span class="usd-tag">$5.99</span></div>
+                </div>
+
+                <div class="border-t border-zinc-700/60 my-5"></div>
+
+                <!-- Money Saved -->
+                <div class="mb-6">
+                    <div class="text-[11px] uppercase tracking-wider text-emerald-400/80 mb-1">Total Money Saved</div>
+                    <div class="text-4xl sm:text-5xl font-bold text-emerald-400 tracking-tight">₦14,300 <span class="usd-tag">$10.07</span></div>
+                </div>
+
+                <!-- Efficiency Bar -->
+                <div class="mb-2">
+                    <div class="flex justify-between text-xs mb-2">
+                        <span class="text-zinc-400">SubHub savings efficiency</span>
+                        <span class="text-emerald-400 font-semibold">63% Efficient</span>
+                    </div>
+                    <div class="h-2.5 bg-zinc-800 rounded-full overflow-hidden">
+                        <div class="h-full bg-gradient-to-r from-emerald-500 to-emerald-400 rounded-full" style="width: 63%"></div>
+                    </div>
+                </div>
+
+                <p class="text-[11px] text-zinc-500 mt-5 leading-relaxed">
+                    *Example based on popular combinations. Actual savings vary by service. Accumulated savings calculated in NGN (Naira).
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Why Choose SubHub -->
+    <section class="bg-zinc-900/40 border-y border-zinc-800 py-16 fade-in">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6">
+            <div class="text-center mb-10">
+                <h2 class="font-display text-3xl font-bold tracking-tight">Why Choose SubHub?</h2>
+                <p class="text-zinc-400 mt-2">Everything you need for a smooth experience</p>
+            </div>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+                <div class="feature-card bg-zinc-900 border border-zinc-800 rounded-2xl p-6 text-center">
+                    <div class="w-11 h-11 bg-yellow-500/15 text-yellow-400 rounded-xl flex items-center justify-center text-xl mb-4 mx-auto"><i class="fa-solid fa-bolt"></i></div>
+                    <h3 class="font-semibold text-lg mb-1">Fast Activation</h3>
+                    <p class="text-sm text-zinc-400">Most orders are activated within minutes after payment confirmation on WhatsApp.</p>
+                </div>
+                <div class="feature-card bg-zinc-900 border border-zinc-800 rounded-2xl p-6 text-center">
+                    <div class="w-11 h-11 bg-emerald-500/15 text-emerald-400 rounded-xl flex items-center justify-center text-xl mb-4 mx-auto"><i class="fa-solid fa-naira-sign"></i></div>
+                    <h3 class="font-semibold text-lg mb-1">Affordable Pricing</h3>
+                    <p class="text-sm text-zinc-400">Enjoy premium services at the most competitive rates available in Nigeria.</p>
+                </div>
+                <div class="feature-card bg-zinc-900 border border-zinc-800 rounded-2xl p-6 text-center">
+                    <div class="w-11 h-11 bg-sky-500/15 text-sky-400 rounded-xl flex items-center justify-center text-xl mb-4 mx-auto"><i class="fa-solid fa-lock"></i></div>
+                    <h3 class="font-semibold text-lg mb-1">Secure Payments</h3>
+                    <p class="text-sm text-zinc-400">Pay via bank transfer, crypto —any method you prefer. We confirm before activation.</p>
+                </div>
+                <div class="feature-card bg-zinc-900 border border-zinc-800 rounded-2xl p-6 text-center">
+                    <div class="w-11 h-11 bg-blue-600/15 text-blue-500 rounded-xl flex items-center justify-center text-xl mb-4 mx-auto"><i class="fa-solid fa-headset"></i></div>
+                    <h3 class="font-semibold text-lg mb-1">Dedicated Support</h3>
+                    <p class="text-sm text-zinc-400">Real human support available on WhatsApp whenever you need help.</p>
+                </div>
+                <div class="feature-card bg-zinc-900 border border-zinc-800 rounded-2xl p-6 text-center">
+                    <div class="w-11 h-11 bg-cyan-500/15 text-purple-400 rounded-xl flex items-center justify-center text-xl mb-4 mx-auto"><i class="fa-solid fa-globe"></i></div>
+                    <h3 class="font-semibold text-lg mb-1">Wide Range of Services</h3>
+                    <p class="text-sm text-zinc-400">AI tools, Streaming, VPNs, Design apps and more — all in one place.</p>
+                </div>
+                <div class="feature-card bg-zinc-900 border border-zinc-800 rounded-2xl p-6 text-center">
+                    <div class="w-11 h-11 bg-sky-500/15 text-cyan-400 rounded-xl flex items-center justify-center text-xl mb-4 mx-auto"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h3 class="font-semibold text-lg mb-1">Trusted Service</h3>
+                    <p class="text-sm text-zinc-400">Hundreds of happy customers trust SubHub for reliable premium access.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how" class="max-w-6xl mx-auto px-4 sm:px-6 py-16 fade-in">
+        <div class="text-center mb-10">
+            <h2 class="font-display text-3xl font-bold tracking-tight">How It Works</h2>
+            <p class="text-zinc-400 mt-2">Get your subscription in 3 simple steps</p>
+        </div>
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="step-card bg-zinc-900 border border-zinc-800 rounded-2xl p-7 text-center relative">
+                <div class="absolute -top-4 left-1/2 -translate-x-1/2 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-sm font-bold">1</div>
+                <div class="w-14 h-14 bg-blue-600/15 text-blue-500 rounded-2xl flex items-center justify-center text-2xl mx-auto mb-4 mt-2">
+                    <i class="fa-solid fa-hand-pointer"></i>
+                </div>
+                <h3 class="font-semibold text-lg mb-2">Choose a Subscription</h3>
+                <p class="text-sm text-zinc-400">Browse our catalog and select the service and duration that suits you.</p>
+            </div>
+            <div class="step-card bg-zinc-900 border border-zinc-800 rounded-2xl p-7 text-center relative">
+                <div class="absolute -top-4 left-1/2 -translate-x-1/2 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-sm font-bold">2</div>
+                <div class="w-14 h-14 bg-blue-600/15 text-blue-500 rounded-2xl flex items-center justify-center text-2xl mx-auto mb-4 mt-2">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <h3 class="font-semibold text-lg mb-2">Complete Your Order</h3>
+                <p class="text-sm text-zinc-400">Click “Order Now” or add to cart, then chat with us on WhatsApp to pay.</p>
+            </div>
+            <div class="step-card bg-zinc-900 border border-zinc-800 rounded-2xl p-7 text-center relative">
+                <div class="absolute -top-4 left-1/2 -translate-x-1/2 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-sm font-bold">3</div>
+                <div class="w-14 h-14 bg-blue-600/15 text-blue-500 rounded-2xl flex items-center justify-center text-2xl mx-auto mb-4 mt-2">
+                    <i class="fa-solid fa-check-circle"></i>
+                </div>
+                <h3 class="font-semibold text-lg mb-2">Receive Your Subscription</h3>
+                <p class="text-sm text-zinc-400">We activate your account and send the details instantly after payment.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CATALOG -->
+    <main id="catalog" class="max-w-6xl mx-auto px-4 sm:px-6 py-14">
+        <div class="catalog-intro mb-8">
+            <p class="text-xs font-semibold tracking-widest text-blue-600 uppercase mb-1">Full price list</p>
+            <h2 class="font-display text-3xl font-bold tracking-tight">Browse every plan</h2>
+            <p class="text-zinc-400 mt-2 max-w-xl">Pick X Premium, AI tools, YouTube, Telegram, VPNs or editing apps, etc, then place your order.</p>
+            <div class="cat-chips">
+                <a href="/x-premium">X Premium</a>
+                <a href="/ai">AI Apps</a>
+                <a href="/youtube">YouTube</a>
+                <a href="/telegram">Telegram</a>
+                <a href="/vpn">VPN</a>
+                <a href="/editing">Editing</a>
+                <a href="/netflix">Streaming</a>
+            </div>
+        </div>
+
+        <!-- X PREMIUM -->
+        <section id="x-premium" class="mb-16 fade-in">
+            <div class="flex items-center gap-3 mb-6">
+                <div class="w-10 h-10 bg-zinc-700 text-white rounded-xl flex items-center justify-center">
+                    <i class="fa-brands fa-x-twitter text-lg"></i>
+                </div>
+                <div>
+                    <h2 class="font-display text-2xl font-bold tracking-tight">Buy X Premium in Nigeria</h2>
+                    <p class="text-sm text-zinc-500">Blue check • Grok access • Creator tools</p>
+                </div>
+            </div>
+            <div class="grid sm:grid-cols-2 gap-5 mb-6">
+                <div class="service-card bg-zinc-900 border border-zinc-800 rounded-2xl p-5 flex flex-col">
+                    <div class="flex items-start justify-between gap-2 mb-3 min-w-0">
+                        <img src="images/x.png" class="w-11 h-11 object-contain" alt="X">
+                        <span class="tag">Normal</span>
+                    </div>
+                    <h3 class="font-semibold text-lg">X Premium (Normal)</h3>
+                    <p class="text-sm text-zinc-400 mt-1 mb-3">Blue checkmark + core Premium features, you can get monetized</p>
+                    <select id="x-select" onchange="updateXPrice()" class="w-full bg-zinc-950 border border-zinc-700 rounded-xl px-3 py-2.5 text-sm mb-3 focus:outline-none focus:border-blue-600">
+                        <option value="8500|3 Months">3 Months — ₦8,500</option>
+                        <option value="13500|6 Months">6 Months — ₦13,500</option>
+                    </select>
+                    <label class="text-xs text-zinc-500 mb-1.5 block">Your X username or profile link</label>
+                    <input id="x-username" type="text" placeholder="@yourxusername or x.com/yourxusername"
+                           class="w-full bg-zinc-950 border border-zinc-700 rounded-xl px-3 py-2.5 text-sm mb-3 focus:outline-none focus:border-blue-600"
+                           autocomplete="off">
+                    <div id="x-price" class="text-2xl font-bold tabular-nums mb-4">₦8,500 <span class="usd-tag">$5.99</span></div>
+                    <div class="flex gap-2">
+                        <button onclick="addXToCart()" class="flex-1 bg-zinc-800 hover:bg-zinc-700 text-sm font-medium py-2.5 rounded-xl">🛒 Add to Cart</button>
+                        <button onclick="orderXWhatsApp()" class="flex-1 bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold py-2.5 rounded-xl">Order Now</button>
+                    </div>
+                </div>
+                <div class="service-card bg-zinc-900 border border-zinc-800 rounded-2xl p-5 flex flex-col opacity-70">
+                    <div class="flex items-start justify-between gap-2 mb-3 min-w-0">
+                        <img src="images/x.png" class="w-11 h-11 object-contain" alt="X">
+                        <span class="oos-badge">Out of stock</span>
+                    </div>
+                    <h3 class="font-semibold text-lg">X Premium+</h3>
+                    <p class="text-sm text-zinc-400 mt-1 mb-4">Full ad-free + highest Grok limits + X Pro</p>
+                    <div class="mt-auto">
+                        <div class="oos-price mb-3">Not selling right now</div>
+                        <button disabled class="oos-btn">Out of stock</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- X Notice -->
+            <div class="notice-box rounded-2xl p-5 sm:p-6 text-sm">
+                <div class="notice-title font-semibold mb-3 flex items-center gap-2">
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+                    Important Notice About X Premium Gifts
+                </div>
+                <p class="notice-text mb-3">
+                    We need only your username to send you X Premium &amp; X Premium+ gifts; no login details required.
+                </p>
+                <p class="notice-text mb-3">
+                    Receiving X Premium as a gift does not automatically lead to account suspension. X Premium gifting is an official X feature, and recipients are simply expected to comply with X's Premium eligibility requirements and platform rules.
+                </p>
+                <p class="notice-text mb-3">
+                    However, X may still review, restrict, or suspend accounts that already violate its policies or exhibit signs of spam, platform manipulation, impersonation, account compromise, fake engagement, abusive behavior, or other deceptive activity.
+                </p>
+                <p class="notice-text mb-4">
+                    To minimize the risk of enforcement, ensure your account is active and authentic, has a profile photo and display name, has a verified phone number or email (where required), and does not engage in spammy or suspicious behavior.
+                </p>
+                <p class="notice-muted text-xs">
+                    Based on our experience, suspensions following Premium gifting are extremely rare and typically occur because the account had already been flagged before the subscription was applied. SubHub is not responsible for any enforcement actions resulting from previous or ongoing violations of X's policies.
+                </p>
+            </div>
+
+            <div class="notice-box notice-safe-box rounded-2xl p-5 sm:p-6 text-sm mt-4">
+                <div class="notice-safe font-semibold mb-3 flex items-center gap-2">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    How to Keep Your X Account Safe
+                </div>
+                <ol class="list-decimal list-inside space-y-1.5 notice-text text-xs">
+                    <li>Avoid spamming replies, mentions, direct messages, or repetitive posts.</li>
+                    <li>Do not use bots, fake engagement, engagement groups, or services that artificially inflate likes, reposts, followers, or replies.</li>
+                    <li>Do not impersonate another individual, brand, organization, or public figure.</li>
+                    <li>Do not use false, misleading, stolen, or deceptive profile information.</li>
+                    <li>Do not post threats, harassment, hateful content, or abusive material.</li>
+                    <li>Respect people's privacy—do not share another person's private information without permission.</li>
+                    <li>Do not promote illegal, restricted, or harmful products or services.</li>
+                    <li>Do not use hacked, compromised, or suspicious accounts.</li>
+                    <li>Avoid making multiple profile changes immediately after subscribing—especially your username, display name, profile photo, or bio.</li>
+                    <li>Keep your email address and phone number verified whenever possible.</li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- AI APPS -->
+        <section id="ai" class="mb-16 fade-in">
+            <div class="flex items-center gap-3 mb-6">
+                <div class="w-10 h-10 bg-blue-600/20 text-blue-500 rounded-xl flex items-center justify-center">
+                    <i class="fa-solid fa-robot text-lg"></i>
+                </div>
+                <div>
+                    <h2 class="font-display text-2xl font-bold tracking-tight">ChatGPT Pro, Grok Pro & Gemini</h2>
+                    <p class="text-sm text-zinc-500">ChatGPT • Gemini • Grok</p>
+                </div>
+            </div>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+                <!-- ChatGPT -->
+                <div class="service-card bg-zinc-900 border border-zinc-800 rounded-2xl p-5 flex flex-col opacity-80">
+                    <div class="flex items-start justify-between gap-2 mb-3">
+                        <img src="images/chatgpt.png" class="w-11 h-11 object-contain shrink-0" alt="ChatGPT">
+                        <span class="oos-badge">Available soon</span>
+                    </div>
+                    <h3 class="font-semibold text-lg">ChatGPT Pro</h3>
+                    <p class="text-sm text-zinc-400 mt-1 mb-4">Full GPT-4o access, Advanced Voice, DALL·E & more</p>
+                    <div class="mt-auto">
+                        <div class="oos-price mb-3">Out of stock</div>
+                        <button disabled class="oos-btn">Available soon</button>
+                    </div>
+                </div>
+                <!-- Gemini (Out of Stock) -->
+                <div class="service-card bg-zinc-900 border border-zinc-800 rounded-2xl p-5 flex flex-col opacity-70">
+                    <div class="flex items-start justify-between gap-2 mb-3 min-w-0">
+                        <img src="images/gemini.png" class="w-11 h-11 object-contain" alt="Gemini">
+                        <span class="oos-badge">Out of stock</span>
+                    </div>
+                    <h3 class="font-semibold text-lg">Gemini Pro</h3>
+                    <p class="text-sm text-zinc-400 mt-1 mb-4">Google AI Pro access for a full year</p>
+                    <div class="mt-auto">
+                        <div class="oos-price mb-3">Not selling right now</div>
+                        <button disabled class="oos-btn">Out of stock</button>
+                    </div>
+                </div>
+                <!-- Grok -->
+                <div class="service-card bg-zinc-900 border border-zinc-800 rounded-2xl p-5 flex flex-col">
+                    <div class="flex items-start justify-between gap-2 mb-3 min-w-0">
+                        <img src="images/Grok.png" class="w-11 h-11 object-contain" alt="Grok">
+                        <span class="tag">Best Seller</span>
+                    </div>
+                    <h3 class="font-semibold text-lg">Grok AI Pro</h3>
+                    <p class="text-sm text-zinc-400 mt-1 mb-3">xAI SuperGrok access • Choose duration</p>
+                    <select id="grok-select" onchange="updateGrokPrice()" class="w-full bg-zinc-950 border border-zinc-700 rounded-xl px-3 py-2.5 text-sm mb-3 focus:outline-none focus:border-blue-600">
+                        <option value="20000|3 Months">3 Months — ₦20,000</option>
+                        <option value="21500|6 Months">6 Months — ₦21,500</option>
+                        <option value="33000|12 Months">12 Months — ₦33,000</option>
+                    </select>
+                    <div class="mt-auto">
+                        <div id="grok-price" class="text-2xl font-bold tabular-nums mb-4">₦20,000 <span class="usd-tag">$14.08</span></div>
+                        <div class="flex gap-2">
+                            <button onclick="addGrokToCart()" class="flex-1 bg-zinc-800 hover:bg-zinc-700 text-sm font-medium py-2.5 rounded-xl transition-all">🛒 Add to Cart</button>
+                            <button onclick="orderGrokWhatsApp()" class="flex-1 bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold py-2.5 rounded-xl transition-all">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- YOUTUBE -->
+        <section id="youtube" class="mb-16 fade-in">
+            <div class="flex items-center gap-3 mb-6">
+                <div class="w-10 h-10 bg-red-500/20 text-red-400 rounded-xl flex items-center justify-center">
+                    <i class="fa-brands fa-youtube text-lg"></i>
+                </div>
+                <div>
+                    <h2 class="font-display text-2xl font-bold tracking-tight">YouTube Premium in Nigeria</h2>
+                    <p class="text-sm text-zinc-500">Ad-free • Music • Offline downloads</p>
+                </div>
+            </div>
+            <div class="grid sm:grid-cols-2 gap-5">
+                <div class="service-card bg-zinc-900 border border-zinc-800 rounded-2xl p-5 flex flex-col">
+                    <div class="flex items-start justify-between gap-2 mb-3 min-w-0">
+                        <img src="images/youtube.png" class="w-11 h-11 object-contain" alt="YouTube">
+                        <span class="tag">Own Gmail</span>
+                    </div>
+                    <h3 class="font-semibold text-lg">YouTube Premium (Single)</h3>
+                    <p class="text-sm text-zinc-400 mt-1 mb-2">1 Month • Use Your Own Gmail</p>
+                    <ul class="text-xs text-zinc-500 space-y-1 mb-4">
+                        <li>✅ Only Gmail needed</li>
+                        <li>✅ No password required</li>
+                    </ul>
+                    <div class="mt-auto">
+                        <div class="text-2xl font-bold tabular-nums mb-4">₦1,500 <span class="usd-tag">$1.06</span></div>
+                        <div class="flex gap-2">
+                            <button onclick="addToCart('YouTube Premium Single', '1 Month (Own Gmail)', 1500)" class="flex-1 bg-zinc-800 hover:bg-zinc-700 text-sm font-medium py-2.5 rounded-xl">🛒 Add to Cart</button>
+                            <button onclick="orderWhatsApp('YouTube Premium Single', '1 Month (Own Gmail)', 1500)" class="flex-1 bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold py-2.5 rounded-xl">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-card bg-zinc-900 border border-zinc-800 rounded-2xl p-5 flex flex-col">
+                    <div class="flex items-start justify-between gap-2 mb-3 min-w-0">
+                        <img src="images/youtube.png" class="w-11 h-11 object-contain" alt="YouTube Family">
+                        <span class="tag">Up to 5 Members</span>
+                    </div>
+                    <h3 class="font-semibold text-lg">YouTube Premium (Family)</h3>
+                    <p class="text-sm text-zinc-400 mt-1 mb-2">1 Month • Only Gmail Needed</p>
+                    <ul class="text-xs text-zinc-500 space-y-1 mb-4">
+                        <li>✅ Can add up to 5 members</li>
+                        <li>✅ All Premium features</li>
+                        <li>✅ Only Gmail needed</li>
+                    </ul>
+                    <div class="mt-auto">
+                        <div class="text-2xl font-bold tabular-nums mb-4">₦1,000 <span class="usd-tag">$0.70</span></div>
+                        <div class="flex gap-2">
+                            <button onclick="addToCart('YouTube Premium Family', '1 Month (Own Gmail)', 1000)" class="flex-1 bg-zinc-800 hover:bg-zinc-700 text-sm font-medium py-2.5 rounded-xl">🛒 Add to Cart</button>
+                            <button onclick="orderWhatsApp('YouTube Premium Family', '1 Month (Own Gmail)', 1000)" class="flex-1 bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold py-2.5 rounded-xl">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TELEGRAM -->
+        <section id="telegram" class="mb-16 fade-in">
+            <div class="flex items-center gap-3 mb-6">
+                <div class="w-10 h-10 bg-sky-500/20 text-sky-400 rounded-xl flex items-center justify-center">
+                    <i class="fa-brands fa-telegram text-lg"></i>
+                </div>
+                <div>
+                    <h2 class="font-display text-2xl font-bold tracking-tight">Telegram Premium & Stars</h2>
+                    <p class="text-sm text-zinc-500">Premium subscription • Telegram Stars</p>
+                </div>
+            </div>
+            <div class="grid sm:grid-cols-2 gap-5">
+                <!-- Telegram Premium -->
+                <div class="service-card bg-zinc-900 border border-zinc-800 rounded-2xl p-5 flex flex-col" data-service="telegram premium">
+                    <div class="flex items-start justify-between gap-2 mb-3 min-w-0">
+                        <img src="images/Telegram.png" class="w-11 h-11 object-contain" alt="Telegram">
+                        <span class="tag">Premium</span>
+                    </div>
+                    <h3 class="font-semibold text-lg">Telegram Premium</h3>
+                    <p class="text-sm text-zinc-400 mt-1 mb-3">Larger files • Faster downloads • Exclusive stickers</p>
+                    <select id="tg-select" onchange="updateTgPrice()" class="w-full bg-zinc-950 border border-zinc-700 rounded-xl px-3 py-2.5 text-sm mb-3 focus:outline-none focus:border-blue-600">
+                        <option value="19800|3 Months">3 Months — ₦19,800</option>
+                        <option value="28000|6 Months">6 Months — ₦28,000</option>
+                        <option value="49000|12 Months">12 Months — ₦49,000</option>
+                    </select>
+                    <div id="tg-price" class="text-2xl font-bold tabular-nums mb-4">₦19,800 <span class="usd-tag">$13.94</span></div>
+                    <div class="card-actions flex gap-2 mt-auto">
+                        <button onclick="addTgToCart()" class="flex-1 bg-zinc-800 hover:bg-zinc-700 text-sm font-medium py-2.5 rounded-xl">🛒 Add to Cart</button>
+                        <button onclick="orderTgWhatsApp()" class="flex-1 bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold py-2.5 rounded-xl">Order Now</button>
+                    </div>
+                </div>
+
+                <!-- Telegram Stars -->
+                <div class="service-card bg-zinc-900 border border-zinc-800 rounded-2xl p-5 flex flex-col" data-service="telegram stars">
+                    <div class="flex items-start justify-between gap-2 mb-3 min-w-0">
+                        <img src="images/Telegram.png" class="w-11 h-11 object-contain" alt="Telegram Stars">
+                        <span class="tag">Stars</span>
+                    </div>
+                    <h3 class="font-semibold text-lg">Telegram Stars</h3>
+                    <p class="text-sm text-zinc-400 mt-1 mb-3">Buy stars for gifts, Premium gifts & more</p>
+
+                    <!-- Fixed packages -->
+                    <label class="text-xs text-zinc-500 mb-1.5 block">Popular packages</label>
+                    <select id="stars-select" onchange="updateStarsPrice()" class="w-full bg-zinc-950 border border-zinc-700 rounded-xl px-3 py-2.5 text-sm mb-3 focus:outline-none focus:border-blue-600">
+                        <option value="1800|50 Stars">⭐ 50 — ₦1,800</option>
+                        <option value="2400|75 Stars">⭐ 75 — ₦2,400</option>
+                        <option value="3000|100 Stars">⭐ 100 — ₦3,000</option>
+                        <option value="4000|150 Stars">⭐ 150 — ₦4,000</option>
+                        <option value="7000|250 Stars">⭐ 250 — ₦7,000</option>
+                        <option value="9500|350 Stars">⭐ 350 — ₦9,500</option>
+                        <option value="13500|500 Stars">⭐ 500 — ₦13,500</option>
+                        <option value="19000|750 Stars">⭐ 750 — ₦19,000</option>
+                        <option value="25000|1K Stars">⭐ 1K — ₦25,000</option>
+                        <option value="37000|1.5K Stars">⭐ 1.5K — ₦37,000</option>
+                        <option value="60000|2.5K Stars">⭐ 2.5K — ₦60,000</option>
+                    </select>
+                    <div id="stars-price" class="text-2xl font-bold tabular-nums mb-3">₦1,800 <span class="usd-tag">$1.27</span></div>
+                    <div class="card-actions flex gap-2 mb-4">
+                        <button onclick="addStarsToCart()" class="flex-1 bg-zinc-800 hover:bg-zinc-700 text-sm font-medium py-2.5 rounded-xl">🛒 Add</button>
+                        <button onclick="orderStarsWhatsApp()" class="flex-1 bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold py-2.5 rounded-xl">Order</button>
+                    </div>
+
+                    <!-- Custom amount -->
+                    <div class="border-t border-zinc-800 pt-4">
+                        <label class="text-xs text-zinc-500 mb-1.5 block">Custom amount (not listed above)</label>
+                        <div class="flex gap-2 mb-2">
+                            <input id="stars-custom" type="number" min="1" placeholder="e.g. 200" 
+                                   oninput="updateCustomStarsPrice()"
+                                   class="flex-1 bg-zinc-950 border border-zinc-700 rounded-xl px-3 py-2.5 text-sm focus:outline-none focus:border-blue-600">
+                            <button onclick="addCustomStarsToCart()" class="bg-zinc-800 hover:bg-zinc-700 text-sm font-medium px-4 py-2.5 rounded-xl">🛒</button>
+                            <button onclick="orderCustomStarsWhatsApp()" class="bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold px-4 py-2.5 rounded-xl">Order</button>
+                        </div>
+                        <div id="stars-custom-price" class="text-lg font-bold tabular-nums mb-1">Enter amount</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- VPN -->
+        <section id="vpn" class="mb-16 fade-in">
+            <div class="flex items-center gap-3 mb-6">
+                <div class="w-10 h-10 bg-violet-500/20 text-violet-400 rounded-xl flex items-center justify-center">
+                    <i class="fa-solid fa-shield-virus text-lg"></i>
+                </div>
+                <div>
+                    <h2 class="font-display text-2xl font-bold tracking-tight">Cheap VPN in Nigeria</h2>
+                    <p class="text-sm text-zinc-500">NordVPN • ExpressVPN • Proton • IPVanish • HMA</p>
+                </div>
+            </div>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+                <div class="service-card bg-zinc-900 border border-zinc-800 rounded-2xl p-5 flex flex-col">
+                    <img src="images/nordvpn.png" class="w-11 h-11 object-contain" alt="NordVPN">
+                    <h3 class="font-semibold text-lg">NordVPN</h3>
+                    <select id="nord-select" onchange="updateVpnPrice('nord')" class="w-full bg-zinc-950 border border-zinc-700 rounded-xl px-3 py-2.5 text-sm my-3 focus:outline-none focus:border-blue-600">
+                        <option value="1000|7 Days">7 Days — ₦1,000</option>
+                        <option value="1700|14 Days">14 Days — ₦1,700</option>
+                        <option value="3400|30 Days">30 Days — ₦3,400</option>
+                    </select>
+                    <div id="nord-price" class="text-2xl font-bold tabular-nums mb-4">₦1,000 <span class="usd-tag">$0.70</span></div>
+                    <div class="card-actions flex gap-2 mt-auto">
+                        <button onclick="addVpnToCart('NordVPN', 'nord')" class="flex-1 bg-zinc-800 hover:bg-zinc-700 text-sm font-medium py-2.5 rounded-xl">🛒 Add</button>
+                        <button onclick="orderVpnWhatsApp('NordVPN', 'nord')" class="flex-1 bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold py-2.5 rounded-xl">Order</button>
+                    </div>
+                </div>
+                <div class="service-card bg-zinc-900 border border-zinc-800 rounded-2xl p-5 flex flex-col">
+                    <img src="images/expressvpn.png" class="w-11 h-11 object-contain" alt="ExpressVPN">
+                    <h3 class="font-semibold text-lg">ExpressVPN</h3>
+                    <select id="express-select" onchange="updateVpnPrice('express')" class="w-full bg-zinc-950 border border-zinc-700 rounded-xl px-3 py-2.5 text-sm my-3 focus:outline-none focus:border-blue-600">
+                        <option value="1000|7 Days">7 Days — ₦1,000</option>
+                        <option value="1700|14 Days">14 Days — ₦1,700</option>
+                        <option value="3400|30 Days">30 Days — ₦3,400</option>
+                    </select>
+                    <div id="express-price" class="text-2xl font-bold tabular-nums mb-4">₦1,000 <span class="usd-tag">$0.70</span></div>
+                    <div class="card-actions flex gap-2 mt-auto">
+                        <button onclick="addVpnToCart('ExpressVPN', 'express')" class="flex-1 bg-zinc-800 hover:bg-zinc-700 text-sm font-medium py-2.5 rounded-xl">🛒 Add</button>
+                        <button onclick="orderVpnWhatsApp('ExpressVPN', 'express')" class="flex-1 bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold py-2.5 rounded-xl">Order</button>
+                    </div>
+                </div>
+                <div class="service-card bg-zinc-900 border border-zinc-800 rounded-2xl p-5 flex flex-col">
+                    <img src="images/protonvpn.png" class="w-11 h-11 object-contain" alt="Proton VPN">
+                    <h3 class="font-semibold text-lg">Proton VPN</h3>
+                    <select id="proton-select" onchange="updateVpnPrice('proton')" class="w-full bg-zinc-950 border border-zinc-700 rounded-xl px-3 py-2.5 text-sm my-3 focus:outline-none focus:border-blue-600">
+                        <option value="1000|7 Days">7 Days — ₦1,000</option>
+                        <option value="1700|14 Days">14 Days — ₦1,700</option>
+                        <option value="3400|30 Days">30 Days — ₦3,400</option>
+                    </select>
+                    <div id="proton-price" class="text-2xl font-bold tabular-nums mb-4">₦1,000 <span class="usd-tag">$0.70</span></div>
+                    <div class="card-actions flex gap-2 mt-auto">
+                        <button onclick="addVpnToCart('Proton VPN', 'proton')" class="flex-1 bg-zinc-800 hover:bg-zinc-700 text-sm font-medium py-2.5 rounded-xl">🛒 Add</button>
+                        <button onclick="orderVpnWhatsApp('Proton VPN', 'proton')" class="flex-1 bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold py-2.5 rounded-xl">Order</button>
+                    </div>
+                </div>
+                <div class="service-card bg-zinc-900 border border-zinc-800 rounded-2xl p-5 flex flex-col">
+                    <img src="images/ipvanish.png" class="w-11 h-11 object-contain" alt="IPVanish">
+                    <h3 class="font-semibold text-lg">IPVanish VPN</h3>
+                    <select id="ipvanish-select" onchange="updateVpnPrice('ipvanish')" class="w-full bg-zinc-950 border border-zinc-700 rounded-xl px-3 py-2.5 text-sm my-3 focus:outline-none focus:border-blue-600">
+                        <option value="1000|7 Days">7 Days — ₦1,000</option>
+                        <option value="1700|14 Days">14 Days — ₦1,700</option>
+                        <option value="3400|30 Days">30 Days — ₦3,400</option>
+                    </select>
+                    <div id="ipvanish-price" class="text-2xl font-bold tabular-nums mb-4">₦1,000 <span class="usd-tag">$0.70</span></div>
+                    <div class="card-actions flex gap-2 mt-auto">
+                        <button onclick="addVpnToCart('IPVanish VPN', 'ipvanish')" class="flex-1 bg-zinc-800 hover:bg-zinc-700 text-sm font-medium py-2.5 rounded-xl">🛒 Add</button>
+                        <button onclick="orderVpnWhatsApp('IPVanish VPN', 'ipvanish')" class="flex-1 bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold py-2.5 rounded-xl">Order</button>
+                    </div>
+                </div>
+                <div class="service-card bg-zinc-900 border border-zinc-800 rounded-2xl p-5 flex flex-col">
+                    <img src="images/hma.png" class="w-11 h-11 object-contain" alt="HMA VPN">
+                    <h3 class="font-semibold text-lg">HMA VPN</h3>
+                    <select id="hma-select" onchange="updateVpnPrice('hma')" class="w-full bg-zinc-950 border border-zinc-700 rounded-xl px-3 py-2.5 text-sm my-3 focus:outline-none focus:border-blue-600">
+                        <option value="1000|7 Days">7 Days — ₦1,000</option>
+                        <option value="1700|14 Days">14 Days — ₦1,700</option>
+                        <option value="3400|30 Days">30 Days — ₦3,400</option>
+                    </select>
+                    <div id="hma-price" class="text-2xl font-bold tabular-nums mb-4">₦1,000 <span class="usd-tag">$0.70</span></div>
+                    <div class="card-actions flex gap-2 mt-auto">
+                        <button onclick="addVpnToCart('HMA VPN', 'hma')" class="flex-1 bg-zinc-800 hover:bg-zinc-700 text-sm font-medium py-2.5 rounded-xl">🛒 Add</button>
+                        <button onclick="orderVpnWhatsApp('HMA VPN', 'hma')" class="flex-1 bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold py-2.5 rounded-xl">Order</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- STREAMING (Netflix) -->
+        <section id="streaming" class="mb-16 fade-in">
+            <div class="flex items-center gap-3 mb-6">
+                <div class="w-10 h-10 bg-red-600/20 text-red-400 rounded-xl flex items-center justify-center">
+                    <i class="fa-solid fa-film text-lg"></i>
+                </div>
+                <div>
+                    <h2 class="font-display text-2xl font-bold tracking-tight">Netflix Premium in Nigeria</h2>
+                    <p class="text-sm text-zinc-500">Netflix Premium</p>
+                </div>
+            </div>
+            <div class="grid sm:grid-cols-2 gap-5">
+                <div class="service-card bg-zinc-900 border border-zinc-800 rounded-2xl p-5 flex flex-col">
+                    <div class="flex items-start justify-between gap-2 mb-3 min-w-0">
+                        <img src="images/netflix.png" class="w-11 h-11 object-contain" alt="Netflix">
+                        <span class="tag">Shared</span>
+                    </div>
+                    <h3 class="font-semibold text-lg">Netflix Premium (Shared)</h3>
+                    <p class="text-sm text-zinc-400 mt-1 mb-2">1 Month • Gmail & Password provided</p>
+                    <p class="text-xs text-zinc-500 mb-4">🔑 Nothing needed from you — we send login details</p>
+                    <div class="mt-auto">
+                        <div class="text-2xl font-bold tabular-nums mb-4">₦4,000 <span class="usd-tag">$2.82</span></div>
+                        <div class="flex gap-2">
+                            <button onclick="addToCart('Netflix Premium Shared', '1 Month', 4000)" class="flex-1 bg-zinc-800 hover:bg-zinc-700 text-sm font-medium py-2.5 rounded-xl">🛒 Add to Cart</button>
+                            <button onclick="orderWhatsApp('Netflix Premium Shared', '1 Month', 4000)" class="flex-1 bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold py-2.5 rounded-xl">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-card bg-zinc-900 border border-zinc-800 rounded-2xl p-5 flex flex-col">
+                    <div class="flex items-start justify-between gap-2 mb-3 min-w-0">
+                        <img src="images/netflix.png" class="w-11 h-11 object-contain" alt="Netflix">
+                        <span class="tag">Personal</span>
+                    </div>
+                    <h3 class="font-semibold text-lg">Netflix Premium (Personal)</h3>
+                    <p class="text-sm text-zinc-400 mt-1 mb-2">1 Month • Gmail & Password provided</p>
+                    <p class="text-xs text-zinc-500 mb-4">🔑 Nothing needed from you — we send login details</p>
+                    <div class="mt-auto">
+                        <div class="text-2xl font-bold tabular-nums mb-4">₦8,000 <span class="usd-tag">$5.63</span></div>
+                        <div class="flex gap-2">
+                            <button onclick="addToCart('Netflix Premium Personal', '1 Month', 8000)" class="flex-1 bg-zinc-800 hover:bg-zinc-700 text-sm font-medium py-2.5 rounded-xl">🛒 Add to Cart</button>
+                            <button onclick="orderWhatsApp('Netflix Premium Personal', '1 Month', 8000)" class="flex-1 bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold py-2.5 rounded-xl">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EDITING -->
+        <section id="editing" class="mb-10 fade-in">
+            <div class="flex items-center gap-3 mb-6">
+                <div class="w-10 h-10 bg-sky-500/20 text-cyan-400 rounded-xl flex items-center justify-center">
+                    <i class="fa-solid fa-pen-ruler text-lg"></i>
+                </div>
+                <div>
+                    <h2 class="font-display text-2xl font-bold tracking-tight">Canva Pro & CapCut Pro</h2>
+                    <p class="text-sm text-zinc-500">Canva Pro • CapCut Pro</p>
+                </div>
+            </div>
+            <div class="grid sm:grid-cols-2 gap-5">
+                <div class="service-card bg-zinc-900 border border-zinc-800 rounded-2xl p-5 flex flex-col">
+                    <div class="flex items-start justify-between gap-2 mb-3 min-w-0">
+                        <img src="images/canva.png" class="w-11 h-11 object-contain" alt="Canva">
+                        <span class="tag">Shared</span>
+                    </div>
+                    <h3 class="font-semibold text-lg">Canva Pro (Shared)</h3>
+                    <p class="text-sm text-zinc-400 mt-1 mb-3">📧 Only Gmail needed</p>
+                    <select id="canva-select" onchange="updateCanvaPrice()" class="w-full bg-zinc-950 border border-zinc-700 rounded-xl px-3 py-2.5 text-sm mb-3 focus:outline-none focus:border-blue-600">
+                        <option value="1700|1 Year">1 Year — ₦1,700</option>
+                        <option value="3200|3 Years">3 Years — ₦3,200</option>
+                    </select>
+                    <div id="canva-price" class="text-2xl font-bold tabular-nums mb-4">₦1,700 <span class="usd-tag">$1.20</span></div>
+                    <div class="card-actions flex gap-2 mt-auto">
+                        <button onclick="addCanvaToCart()" class="flex-1 bg-zinc-800 hover:bg-zinc-700 text-sm font-medium py-2.5 rounded-xl">🛒 Add to Cart</button>
+                        <button onclick="orderCanvaWhatsApp()" class="flex-1 bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold py-2.5 rounded-xl">Order Now</button>
+                    </div>
+                </div>
+                <div class="service-card bg-zinc-900 border border-zinc-800 rounded-2xl p-5 flex flex-col">
+                    <div class="flex items-start justify-between gap-2 mb-3 min-w-0">
+                        <img src="images/capcut.png" class="w-11 h-11 object-contain" alt="CapCut">
+                        <span class="tag">Personal</span>
+                    </div>
+                    <h3 class="font-semibold text-lg">CapCut Pro (Personal)</h3>
+                    <p class="text-sm text-zinc-400 mt-1 mb-2">1 Month access</p>
+                    <p class="text-xs text-zinc-500 mb-4">🔑 Nothing needed — we send Gmail & Password</p>
+                    <div class="text-2xl font-bold tabular-nums mb-4">₦6,000 <span class="usd-tag">$4.23</span></div>
+                    <div class="card-actions flex gap-2 mt-auto">
+                        <button onclick="addToCart('CapCut Pro Personal', '1 Month', 6000)" class="flex-1 bg-zinc-800 hover:bg-zinc-700 text-sm font-medium py-2.5 rounded-xl">🛒 Add to Cart</button>
+                        <button onclick="orderWhatsApp('CapCut Pro Personal', '1 Month', 6000)" class="flex-1 bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold py-2.5 rounded-xl">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Trusted Payment Methods -->
+    <section class="bg-zinc-900/40 border-y border-zinc-800 py-14 fade-in">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 text-center">
+            <h2 class="font-display text-2xl font-bold tracking-tight mb-2">Trusted Payment Methods</h2>
+            <p class="text-zinc-400 text-sm mb-8">Pay the way that works best for you</p>
+            <div class="flex flex-wrap justify-center gap-6 sm:gap-10">
+                <div class="flex flex-col items-center gap-2">
+                    <div class="w-14 h-14 bg-zinc-800 rounded-2xl flex items-center justify-center text-2xl">🏦</div>
+                    <span class="text-sm font-medium">Bank Transfer</span>
+                </div>
+                <div class="flex flex-col items-center gap-2">
+                    <div class="w-14 h-14 bg-zinc-800 rounded-2xl flex items-center justify-center text-2xl">₿</div>
+                    <span class="text-sm font-medium">Cryptocurrency</span>
+                </div>
+                <div class="flex flex-col items-center gap-2">
+                    <div class="w-14 h-14 bg-zinc-800 rounded-2xl flex items-center justify-center text-2xl">💬</div>
+                    <span class="text-sm font-medium">WhatsApp Orders</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Real Customer Proof (Screenshots) — Horizontal swipe carousel -->
+    <section class="py-16 fade-in">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6">
+            <div class="text-center mb-8">
+                <h2 class="font-display text-3xl font-bold tracking-tight">Real Customer Proof</h2>
+                <p class="text-zinc-400 mt-2">Swipe sideways to see actual WhatsApp chats from customers</p>
+            </div>
+        </div>
+
+        <div class="relative">
+            <!-- Scroll buttons (desktop) -->
+            <button onclick="scrollProof(-1)" class="hidden sm:flex absolute left-2 top-1/2 -translate-y-1/2 z-10 w-10 h-10 bg-zinc-800/90 border border-zinc-700 rounded-full items-center justify-center text-white hover:bg-emerald-600 transition-all shadow-lg">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button onclick="scrollProof(1)" class="hidden sm:flex absolute right-2 top-1/2 -translate-y-1/2 z-10 w-10 h-10 bg-zinc-800/90 border border-zinc-700 rounded-full items-center justify-center text-white hover:bg-emerald-600 transition-all shadow-lg">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+
+            <div id="proof-carousel" class="flex gap-4 overflow-x-auto snap-x snap-mandatory px-4 sm:px-6 pb-4 scrollbar-hide" style="scroll-behavior: smooth; -webkit-overflow-scrolling: touch;">
+                <div class="proof-card bg-zinc-900 border border-zinc-800 rounded-2xl overflow-hidden snap-center shrink-0 w-[78vw] sm:w-[280px]">
+                    <img src="images/proof/proof-1.jpg" alt="X Premium order" class="w-full h-64 object-cover object-top">
+                    <div class="p-4">
+                        <p class="text-sm font-medium">X Premium — Eligibility & Payment</p>
+                        <p class="text-xs text-zinc-500 mt-1">Customer ordered • Payment confirmed</p>
+                    </div>
+                </div>
+                <div class="proof-card bg-zinc-900 border border-zinc-800 rounded-2xl overflow-hidden snap-center shrink-0 w-[78vw] sm:w-[280px]">
+                    <img src="images/proof/proof-2.jpg" alt="X Premium payment" class="w-full h-64 object-cover object-top">
+                    <div class="p-4">
+                        <p class="text-sm font-medium">X Premium — ₦13,500 Payment</p>
+                        <p class="text-xs text-zinc-500 mt-1">6 months plan • Receipt delivered</p>
+                    </div>
+                </div>
+                <div class="proof-card bg-zinc-900 border border-zinc-800 rounded-2xl overflow-hidden snap-center shrink-0 w-[78vw] sm:w-[280px]">
+                    <img src="images/proof/proof-3.jpg" alt="X Premium activated" class="w-full h-64 object-cover object-top">
+                    <div class="p-4">
+                        <p class="text-sm font-medium">X Premium — Activated</p>
+                        <p class="text-xs text-zinc-500 mt-1">Done ✅ • Customer received receipt</p>
+                    </div>
+                </div>
+                <div class="proof-card bg-zinc-900 border border-zinc-800 rounded-2xl overflow-hidden snap-center shrink-0 w-[78vw] sm:w-[280px]">
+                    <img src="images/proof/proof-5.jpg" alt="X Premium 3 months" class="w-full h-64 object-cover object-top">
+                    <div class="p-4">
+                        <p class="text-sm font-medium">X Premium — 3 Months</p>
+                        <p class="text-xs text-zinc-500 mt-1">Blue check under review • Activated</p>
+                    </div>
+                </div>
+                <div class="proof-card bg-zinc-900 border border-zinc-800 rounded-2xl overflow-hidden snap-center shrink-0 w-[78vw] sm:w-[280px]">
+                    <img src="images/proof/proof-6.jpg" alt="X Premium eligibility" class="w-full h-64 object-cover object-top">
+                    <div class="p-4">
+                        <p class="text-sm font-medium">X Premium — Eligibility Confirmed</p>
+                        <p class="text-xs text-zinc-500 mt-1">Account verified • Order completed</p>
+                    </div>
+                </div>
+                <div class="proof-card bg-zinc-900 border border-zinc-800 rounded-2xl overflow-hidden snap-center shrink-0 w-[78vw] sm:w-[280px]">
+                    <img src="images/proof/proof-4.jpg" alt="X Premium payment received" class="w-full h-64 object-cover object-top">
+                    <div class="p-4">
+                        <p class="text-sm font-medium">X Premium — Payment Received</p>
+                        <p class="text-xs text-zinc-500 mt-1">Quick activation • Happy customer</p>
+                    </div>
+                </div>
+                <div class="proof-card bg-zinc-900 border border-zinc-800 rounded-2xl overflow-hidden snap-center shrink-0 w-[78vw] sm:w-[280px]">
+                    <img src="images/proof/proof-7.jpg" alt="Customer proof" class="w-full h-64 object-cover object-top">
+                    <div class="p-4">
+                        <p class="text-sm font-medium">More Customer Proof</p>
+                        <p class="text-xs text-zinc-500 mt-1">Real orders • Real results</p>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center text-xs text-zinc-500 mt-3 sm:hidden"><i class="fa-solid fa-arrows-left-right mr-1"></i> Swipe to browse</p>
+        </div>
+    </section>
+
+    <!-- Customer Reviews -->
+    <section id="reviews" class="max-w-6xl mx-auto px-4 sm:px-6 py-16 fade-in">
+        <div class="text-center mb-10">
+            <h2 class="font-display text-3xl font-bold tracking-tight">Customer Reviews</h2>
+            <p class="text-zinc-400 mt-2">Share your experience — reviews stay on the site</p>
+        </div>
+
+        <div class="grid lg:grid-cols-5 gap-8">
+            <!-- Submit form -->
+            <div class="lg:col-span-2 bg-zinc-900 border border-zinc-800 rounded-2xl p-6">
+                <h3 class="font-semibold text-lg mb-4">Leave a Review</h3>
+                <div class="space-y-3">
+                    <input id="review-name" type="text" placeholder="Your name" maxlength="40"
+                           class="w-full bg-zinc-950 border border-zinc-700 rounded-xl px-4 py-2.5 text-sm focus:outline-none focus:border-emerald-500">
+                    <div class="flex items-center gap-1" id="review-stars">
+                        <button type="button" onclick="setReviewRating(1)" class="review-star text-2xl text-zinc-600 hover:text-amber-400 transition-colors" data-v="1">★</button>
+                        <button type="button" onclick="setReviewRating(2)" class="review-star text-2xl text-zinc-600 hover:text-amber-400 transition-colors" data-v="2">★</button>
+                        <button type="button" onclick="setReviewRating(3)" class="review-star text-2xl text-zinc-600 hover:text-amber-400 transition-colors" data-v="3">★</button>
+                        <button type="button" onclick="setReviewRating(4)" class="review-star text-2xl text-zinc-600 hover:text-amber-400 transition-colors" data-v="4">★</button>
+                        <button type="button" onclick="setReviewRating(5)" class="review-star text-2xl text-zinc-600 hover:text-amber-400 transition-colors" data-v="5">★</button>
+                        <span id="review-rating-label" class="text-xs text-zinc-500 ml-2">Tap to rate</span>
+                    </div>
+                    <textarea id="review-comment" rows="3" maxlength="400" placeholder="How was your experience with SubHub?"
+                              class="w-full bg-zinc-950 border border-zinc-700 rounded-xl px-4 py-2.5 text-sm focus:outline-none focus:border-emerald-500 resize-none"></textarea>
+                    <button onclick="submitReview()" class="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-semibold py-3 rounded-xl transition-all">
+                        Submit Review
+                    </button>
+                    <p id="review-msg" class="text-xs text-center hidden"></p>
+                </div>
+            </div>
+
+            <!-- Reviews list -->
+            <div class="lg:col-span-3">
+                <div id="reviews-list" class="space-y-4 max-h-[420px] overflow-y-auto pr-1">
+                    <div class="text-center py-10 text-zinc-500 text-sm">Loading reviews…</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="max-w-3xl mx-auto px-4 sm:px-6 py-16 fade-in">
+        <div class="text-center mb-10">
+            <h2 class="font-display text-3xl font-bold tracking-tight">Frequently Asked Questions</h2>
+            <p class="text-zinc-400 mt-2">Everything you need to know</p>
+        </div>
+        <div class="space-y-3" id="faq-list">
+            <div class="faq-item bg-zinc-900 border border-zinc-800 rounded-2xl overflow-hidden">
+                <button onclick="toggleFaq(this)" class="w-full flex items-center justify-between px-5 py-4 text-left font-medium">
+                    <span>What is SubHub?</span>
+                    <i class="fa-solid fa-chevron-down faq-icon text-zinc-400 transition-transform"></i>
+                </button>
+                <div class="faq-answer px-5 text-sm text-zinc-400 pb-0">
+                    SubHub is a platform that helps you get premium subscriptions ( X Premium, X Premium+, ChatGPT, Grok, YouTube Premium, VPNs, etc.) at affordable prices. We handle activation through WhatsApp for a fast and simple experience.
+                </div>
+            </div>
+            <div class="faq-item bg-zinc-900 border border-zinc-800 rounded-2xl overflow-hidden">
+                <button onclick="toggleFaq(this)" class="w-full flex items-center justify-between px-5 py-4 text-left font-medium">
+                    <span>How does ordering work?</span>
+                    <i class="fa-solid fa-chevron-down faq-icon text-zinc-400 transition-transform"></i>
+                </button>
+                <div class="faq-answer px-5 text-sm text-zinc-400 pb-0">
+                    Browse the catalog, choose your preferred service and duration, then click “Order Now” or add items to cart. You’ll be redirected to WhatsApp where we confirm your order and payment details.
+                </div>
+            </div>
+            <div class="faq-item bg-zinc-900 border border-zinc-800 rounded-2xl overflow-hidden">
+                <button onclick="toggleFaq(this)" class="w-full flex items-center justify-between px-5 py-4 text-left font-medium">
+                    <span>How long does activation take?</span>
+                    <i class="fa-solid fa-chevron-down faq-icon text-zinc-400 transition-transform"></i>
+                </button>
+                <div class="faq-answer px-5 text-sm text-zinc-400 pb-0">
+                    Most orders are activated within a few minutes after we confirm your payment. Some services may take a little longer depending on availability.
+                </div>
+            </div>
+            <div class="faq-item bg-zinc-900 border border-zinc-800 rounded-2xl overflow-hidden">
+                <button onclick="toggleFaq(this)" class="w-full flex items-center justify-between px-5 py-4 text-left font-medium">
+                    <span>What payment methods do you accept?</span>
+                    <i class="fa-solid fa-chevron-down faq-icon text-zinc-400 transition-transform"></i>
+                </button>
+                <div class="faq-answer px-5 text-sm text-zinc-400 pb-0">
+                    We accept bank transfers and cryptocurrency. Simply message us on WhatsApp and we’ll share the available payment options.
+                </div>
+            </div>
+            <div class="faq-item bg-zinc-900 border border-zinc-800 rounded-2xl overflow-hidden">
+                <button onclick="toggleFaq(this)" class="w-full flex items-center justify-between px-5 py-4 text-left font-medium">
+                    <span>How do renewals work?</span>
+                    <i class="fa-solid fa-chevron-down faq-icon text-zinc-400 transition-transform"></i>
+                </button>
+                <div class="faq-answer px-5 text-sm text-zinc-400 pb-0">
+                    When your subscription is about to expire, simply message us on WhatsApp and we’ll help you renew at the current rate.
+                </div>
+            </div>
+            <div class="faq-item bg-zinc-900 border border-zinc-800 rounded-2xl overflow-hidden">
+                <button onclick="toggleFaq(this)" class="w-full flex items-center justify-between px-5 py-4 text-left font-medium">
+                    <span>Do you offer refunds?</span>
+                    <i class="fa-solid fa-chevron-down faq-icon text-zinc-400 transition-transform"></i>
+                </button>
+                <div class="faq-answer px-5 text-sm text-zinc-400 pb-0">
+                    Refunds are handled on a case-by-case basis. If there’s an issue with activation or delivery, contact us immediately on WhatsApp and we’ll resolve it. If service(s) aren’t delivered within 24 hours, you are entitled to a 100% refund
+                </div>
+            </div>
+            <div class="faq-item bg-zinc-900 border border-zinc-800 rounded-2xl overflow-hidden">
+                <button onclick="toggleFaq(this)" class="w-full flex items-center justify-between px-5 py-4 text-left font-medium">
+                    <span>Is my account safe?</span>
+                    <i class="fa-solid fa-chevron-down faq-icon text-zinc-400 transition-transform"></i>
+                </button>
+                <div class="faq-answer px-5 text-sm text-zinc-400 pb-0">
+                    We take account safety seriously. Follow the guidelines we provide (especially for X Premium & Premium) and avoid spammy behavior to keep your accounts in good standing.
+                </div>
+            </div>
+            <div class="faq-item bg-zinc-900 border border-zinc-800 rounded-2xl overflow-hidden">
+                <button onclick="toggleFaq(this)" class="w-full flex items-center justify-between px-5 py-4 text-left font-medium">
+                    <span>How can I contact support?</span>
+                    <i class="fa-solid fa-chevron-down faq-icon text-zinc-400 transition-transform"></i>
+                </button>
+                <div class="faq-answer px-5 text-sm text-zinc-400 pb-0">
+                    The fastest way is WhatsApp: <a href="https://wa.link/71id1z" target="_blank" class="text-emerald-400 underline">+234 813 298 3965</a>. We’re available to help with orders, renewals and any questions.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- QR / Contact Section -->
+    <section class="bg-zinc-900/60 border-y border-zinc-800 py-16 fade-in">
+        <div class="max-w-2xl mx-auto px-4 text-center">
+            <h2 class="font-display text-2xl font-bold tracking-tight mb-2">Need Help Placing an Order?</h2>
+            <p class="text-zinc-400 mb-8">Scan the QR code or click the button below to chat with us instantly on WhatsApp.</p>
+            
+            <div class="inline-flex flex-col items-center bg-white p-5 rounded-2xl shadow-xl mb-6">
+                <img src="data:image/jpeg;base64,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" alt="WhatsApp QR Code" class="w-48 h-48 rounded-xl object-contain">
+                <p class="text-zinc-800 text-sm font-semibold mt-3"></p>
+            </div>
+            
+            <div>
+                <a href="https://wa.link/71id1z" target="_blank"
+                   class="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white font-semibold px-8 py-3.5 rounded-xl transition-all">
+                    <i class="fa-brands fa-whatsapp text-xl"></i>
+                    Open WhatsApp Chat
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-zinc-950 border-t border-zinc-800">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 py-12">
+            <div class="grid md:grid-cols-3 gap-10">
+                <div>
+                    <div class="flex items-center gap-3 mb-4">
+                        <img src="subhub-logo.png" alt="SubHub" class="h-8 w-auto object-contain">
+                    </div>
+                    <p class="text-sm text-zinc-400 max-w-xs">Your trusted source for affordable premium subscriptions in Nigeria. Fast delivery via WhatsApp.</p>
+                </div>
+                <div>
+                    <div class="font-semibold mb-3 text-sm uppercase tracking-wider text-zinc-500">Quick Links</div>
+                    <div class="space-y-2 text-sm">
+                        <div><a href="/popular" class="text-zinc-400 hover:text-white transition-colors">Popular</a></div>
+                        <div><a href="/services" class="text-zinc-400 hover:text-white transition-colors">Full Catalog</a></div>
+                        <div><a href="/how-it-works" class="text-zinc-400 hover:text-white transition-colors">How it Works</a></div>
+                        <div><a href="/faq" class="text-zinc-400 hover:text-white transition-colors">FAQ</a></div>
+                    </div>
+                </div>
+                <div>
+                    <div class="font-semibold mb-3 text-sm uppercase tracking-wider text-zinc-500">Contact</div>
+                    <a href="https://wa.link/71id1z" target="_blank" class="flex items-center gap-2 text-emerald-400 hover:text-emerald-300 font-medium">
+                        <i class="fa-brands fa-whatsapp text-xl"></i>
+                        <span>+234 813 298 3965</span>
+                    </a>
+                    <a href="https://x.com/subhub26_ng" target="_blank" rel="noopener" class="footer-x flex items-center gap-2 font-medium mt-3">
+                        <i class="fa-brands fa-x-twitter"></i>
+                        <span>@subhub26_ng</span>
+                    </a>
+                    <a href="https://x.com/0xwilly_" target="_blank" rel="noopener" class="footer-x flex items-start gap-2 font-medium mt-2">
+                        <i class="fa-brands fa-x-twitter mt-0.5"></i>
+                        <span>@0xwilly_ <span class="block text-xs font-normal footer-x-note">Website developer · hire for web work</span></span>
+                    </a>
+                    <p class="text-xs text-zinc-500 mt-2">Available for orders & support</p>
+                </div>
+            </div>
+            <div class="mt-10 pt-6 border-t border-zinc-800 text-xs text-zinc-500 flex flex-col sm:flex-row justify-between gap-2">
+                <div>© 2026 SubHub (SubHub26) — subhub26.com.ng. All rights reserved.</div>
+
+                <div> Prices in ₦ and USD ($1 = ₦1,420). Activation via WhatsApp</div>
+                <div> Thank You For Choosing SubHub!!</div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Guest order signup prompt -->
+    <div id="order-signup-modal" class="hidden fixed inset-0 z-[65] bg-black/70 backdrop-blur-sm flex items-center justify-center p-4">
+        <div class="bg-zinc-900 border border-zinc-700 rounded-3xl w-full max-w-md p-7 text-center" onclick="event.stopPropagation()">
+            <div class="w-14 h-14 mx-auto mb-4 rounded-2xl bg-blue-600/15 text-blue-500 flex items-center justify-center text-2xl">
+                <i class="fa-solid fa-user-plus"></i>
+            </div>
+            <h3 class="font-display text-2xl font-bold mb-2">Create a free account</h3>
+            <p class="text-sm text-zinc-400 mb-4">Sign up so we can save this order to your dashboard and show expiry dates.</p>
+            <button onclick="chooseSignupForOrder()" class="w-full bg-blue-600 hover:bg-blue-500 text-white font-semibold py-3 rounded-xl mb-2">Create account</button>
+            <button onclick="chooseLoginForOrder()" class="w-full border border-zinc-700 hover:bg-zinc-800 font-semibold py-3 rounded-xl mb-3">I already have an account</button>
+            <button onclick="continueGuestOrder()" class="text-xs text-zinc-500 hover:text-zinc-300">Continue without an account</button>
+        </div>
+    </div>
+
+    <!-- ========== AUTH MODALS ========== -->
+    <!-- Login Modal -->
+    <div id="login-modal" class="hidden fixed inset-0 z-[60] bg-black/70 backdrop-blur-sm flex items-center justify-center p-4">
+        <div class="bg-zinc-900 border border-zinc-700 rounded-3xl w-full max-w-md p-7" onclick="event.stopPropagation()">
+            <div class="flex justify-between items-center mb-6">
+                <h3 class="font-display text-2xl font-bold">Welcome Back</h3>
+                <button onclick="hideLogin()" class="text-zinc-400 hover:text-white text-2xl">&times;</button>
+            </div>
+            <div class="space-y-4">
+                <div>
+                    <label class="text-xs text-zinc-400 block mb-1.5">Email</label>
+                    <input id="login-email" type="email" placeholder="you@email.com" class="w-full bg-zinc-950 border border-zinc-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-blue-600">
+                </div>
+                <div>
+                    <label class="text-xs text-zinc-400 block mb-1.5">Password</label>
+                    <div class="relative">
+                        <input id="login-password" type="password" placeholder="••••••••" class="w-full bg-zinc-950 border border-zinc-700 rounded-xl px-4 py-3 pr-11 text-sm focus:outline-none focus:border-blue-600">
+                        <button type="button" onclick="togglePassword('login-password', this)" class="absolute right-3 top-1/2 -translate-y-1/2 text-zinc-500 hover:text-white" aria-label="Show password">
+                            <i class="fa-solid fa-eye"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-2 text-right">
+                <button onclick="hideLogin(); showResetPassword()" class="text-xs text-blue-500 hover:underline">Forgot password?</button>
+            </div>
+            <button onclick="loginUser()" class="mt-4 w-full bg-white text-zinc-950 font-semibold py-3.5 rounded-xl hover:bg-zinc-100 transition-all">Log In</button>
+
+            <div class="flex items-center gap-3 my-5">
+                <div class="flex-1 h-px bg-zinc-700"></div>
+                <span class="text-xs text-zinc-500 uppercase tracking-wider">or</span>
+                <div class="flex-1 h-px bg-zinc-700"></div>
+            </div>
+            <button type="button" onclick="loginWithGoogle()" class="google-btn w-full flex items-center justify-center gap-3 font-medium py-3.5 rounded-xl transition-all">
+                <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="" class="w-5 h-5">
+                Continue with Google
+            </button>
+
+            <p class="text-center text-sm text-zinc-400 mt-4">
+                Don’t have an account? <button onclick="hideLogin(); showSignup()" class="text-blue-500 hover:underline">Sign up free</button>
+            </p>
+        </div>
+    </div>
+
+    <!-- Reset Password Modal -->
+    <div id="reset-modal" class="hidden fixed inset-0 z-[60] bg-black/70 backdrop-blur-sm flex items-center justify-center p-4">
+        <div class="bg-zinc-900 border border-zinc-700 rounded-3xl w-full max-w-md p-7" onclick="event.stopPropagation()">
+            <div class="flex justify-between items-center mb-6">
+                <h3 class="font-display text-2xl font-bold">Reset Password</h3>
+                <button onclick="hideResetPassword()" class="text-zinc-400 hover:text-white text-2xl">&times;</button>
+            </div>
+            <p class="text-sm text-zinc-400 mb-5">Enter your account email. We’ll send you a link to set a new password.</p>
+            <div>
+                <label class="text-xs text-zinc-400 block mb-1.5">Email</label>
+                <input id="reset-email" type="email" placeholder="you@email.com" class="w-full bg-zinc-950 border border-zinc-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-blue-600">
+            </div>
+            <button onclick="resetPassword()" class="mt-6 w-full bg-emerald-600 hover:bg-emerald-500 text-white font-semibold py-3.5 rounded-xl transition-all">Send Reset Link</button>
+            <p id="reset-msg" class="text-xs text-center mt-3 hidden"></p>
+            <p class="text-center text-sm text-zinc-400 mt-4">
+                <button onclick="hideResetPassword(); showLogin()" class="text-blue-500 hover:underline">← Back to Log In</button>
+            </p>
+        </div>
+    </div>
+
+    <!-- Signup Modal -->
+    <div id="signup-modal" class="hidden fixed inset-0 z-[60] bg-black/70 backdrop-blur-sm flex items-center justify-center p-4">
+        <div class="bg-zinc-900 border border-zinc-700 rounded-3xl w-full max-w-md p-7" onclick="event.stopPropagation()">
+            <div class="flex justify-between items-center mb-6">
+                <h3 class="font-display text-2xl font-bold">Create Account</h3>
+                <button onclick="hideSignup()" class="text-zinc-400 hover:text-white text-2xl">&times;</button>
+            </div>
+            <div class="space-y-4">
+                <div>
+                    <label class="text-xs text-zinc-400 block mb-1.5">Full Name</label>
+                    <input id="signup-name" type="text" placeholder="Your name" class="w-full bg-zinc-950 border border-zinc-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-blue-600">
+                </div>
+                <div>
+                    <label class="text-xs text-zinc-400 block mb-1.5">Email</label>
+                    <input id="signup-email" type="email" placeholder="you@email.com" class="w-full bg-zinc-950 border border-zinc-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-blue-600">
+                </div>
+                <div>
+                    <label class="text-xs text-zinc-400 block mb-1.5">Password</label>
+                    <div class="relative">
+                        <input id="signup-password" type="password" placeholder="Create a password" class="w-full bg-zinc-950 border border-zinc-700 rounded-xl px-4 py-3 pr-11 text-sm focus:outline-none focus:border-blue-600">
+                        <button type="button" onclick="togglePassword('signup-password', this)" class="absolute right-3 top-1/2 -translate-y-1/2 text-zinc-500 hover:text-white" aria-label="Show password">
+                            <i class="fa-solid fa-eye"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <button onclick="signupUser()" class="mt-6 w-full bg-blue-600 text-white font-semibold py-3.5 rounded-xl hover:bg-blue-500 transition-all">Create Free Account</button>
+
+            <div class="flex items-center gap-3 my-5">
+                <div class="flex-1 h-px bg-zinc-700"></div>
+                <span class="text-xs text-zinc-500 uppercase tracking-wider">or</span>
+                <div class="flex-1 h-px bg-zinc-700"></div>
+            </div>
+            <button type="button" onclick="loginWithGoogle()" class="google-btn w-full flex items-center justify-center gap-3 font-medium py-3.5 rounded-xl transition-all">
+                <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="" class="w-5 h-5">
+                Continue with Google
+            </button>
+
+            <p class="text-center text-sm text-zinc-400 mt-4">
+                Already have an account? <button onclick="hideSignup(); showLogin()" class="text-blue-500 hover:underline">Log in</button>
+            </p>
+            <p class="text-[11px] text-zinc-500 text-center mt-3">You can still order without an account. Accounts help you track subscriptions.</p>
+        </div>
+    </div>
+
+
+    <!-- Signup Success Modal -->
+    <div id="signup-success-modal" class="hidden fixed inset-0 z-[65] bg-black/70 backdrop-blur-sm flex items-center justify-center p-4">
+        <div class="bg-zinc-900 border border-emerald-500/30 rounded-3xl w-full max-w-md p-7 text-center shadow-xl shadow-emerald-500/10" onclick="event.stopPropagation()">
+            <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-emerald-500/15 text-emerald-400 flex items-center justify-center text-3xl">
+                <i class="fa-solid fa-circle-check"></i>
+            </div>
+            <h3 class="font-display text-2xl font-bold mb-2">You're registered! 🎉</h3>
+            <p class="text-sm text-zinc-400 mb-2">Your SubHub account was created successfully.</p>
+            <p id="signup-success-email" class="text-sm text-emerald-400 font-medium mb-3"></p>
+            <p class="text-xs text-zinc-500 mb-6 leading-relaxed">A confirmation email was sent to you. Please log in to open your dashboard and track orders.</p>
+            <button onclick="goToLoginAfterSignup()" class="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-semibold py-3.5 rounded-xl transition-all">
+                Log In Now
+            </button>
+        </div>
+    </div>
+
+    <!-- Dashboard Modal / Overlay -->
+    <div id="dashboard-view" class="hidden fixed inset-0 z-[55] bg-zinc-950 overflow-y-auto">
+        <div class="max-w-5xl mx-auto px-4 py-8">
+            <div class="flex items-center justify-between mb-8">
+                <div>
+                    <h2 class="font-display text-3xl font-bold">My Dashboard</h2>
+                    <p class="text-zinc-400 text-sm mt-1">Track your active subscriptions</p>
+                </div>
+                <button onclick="hideDashboard()" class="px-5 py-2.5 border border-zinc-700 rounded-xl text-sm hover:bg-zinc-900 transition-all">
+                    ← Back to Site
+                </button>
+            </div>
+
+            <div id="dashboard-user-info" class="bg-zinc-900 border border-zinc-800 rounded-2xl p-5 mb-6 flex items-center gap-4">
+                <!-- Populated by JS -->
+            </div>
+
+            <!-- Admin Orders Panel -->
+            <div id="admin-orders-panel" class="hidden mb-10">
+                <div class="flex flex-wrap items-center justify-between gap-3 mb-4">
+                    <h3 class="font-semibold text-lg flex items-center gap-2">
+                        <i class="fa-solid fa-clipboard-list text-emerald-400"></i> All Orders
+                    </h3>
+                    <div class="flex items-center gap-2">
+                        <select id="orders-filter" onchange="renderAdminOrders()" class="bg-zinc-900 border border-zinc-700 rounded-xl px-3 py-2 text-sm focus:outline-none">
+                            <option value="all">All statuses</option>
+                            <option value="pending">Pending</option>
+                            <option value="paid">Paid</option>
+                            <option value="completed">Completed</option>
+                            <option value="cancelled">Cancelled</option>
+                        </select>
+                        <button onclick="loadAdminOrders()" class="text-sm px-3 py-2 border border-zinc-700 rounded-xl hover:bg-zinc-900">Refresh</button>
+                    </div>
+                </div>
+                <div id="admin-orders-stats" class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-4"></div>
+                <div id="admin-orders-list" class="space-y-3 max-h-[520px] overflow-y-auto pr-1">
+                    <div class="text-center py-8 text-zinc-500 text-sm">Loading orders…</div>
+                </div>
+            </div>
+
+            <div class="flex items-center justify-between mb-4">
+                <h3 class="font-semibold text-lg">Active Subscriptions</h3>
+                <button onclick="showAddSubModal()" class="text-sm bg-blue-700 hover:bg-blue-600 text-white px-4 py-2 rounded-xl transition-all">
+                    + Add Subscription
+                </button>
+            </div>
+
+            <div id="subscriptions-list" class="space-y-4">
+                <!-- Populated by JS -->
+            </div>
+
+            <div class="mt-8 text-center text-sm text-zinc-500">
+                After you order on WhatsApp and we activate your service, you can add it here to track the expiry date.
+            </div>
+        </div>
+    </div>
+
+    <!-- Add Subscription Modal -->
+    <div id="add-sub-modal" class="hidden fixed inset-0 z-[70] bg-black/70 backdrop-blur-sm flex items-center justify-center p-4">
+        <div class="bg-zinc-900 border border-zinc-700 rounded-3xl w-full max-w-md p-7">
+            <div class="flex justify-between items-center mb-6">
+                <h3 class="font-display text-xl font-bold">Add Subscription</h3>
+                <button onclick="hideAddSubModal()" class="text-zinc-400 hover:text-white text-2xl">&times;</button>
+            </div>
+            <div class="space-y-4">
+                <div>
+                    <label class="text-xs text-zinc-400 block mb-1.5">Service Name</label>
+                    <input id="add-sub-name" type="text" placeholder="e.g. t" class="w-full bg-zinc-950 border border-zinc-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-blue-600">
+                </div>
+                <div>
+                    <label class="text-xs text-zinc-400 block mb-1.5">Plan / Duration</label>
+                    <input id="add-sub-plan" type="text" placeholder="e.g. 1 Month" class="w-full bg-zinc-950 border border-zinc-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-blue-600">
+                </div>
+                <div>
+                    <label class="text-xs text-zinc-400 block mb-1.5">Expiry Date</label>
+                    <input id="add-sub-expiry" type="date" class="w-full bg-zinc-950 border border-zinc-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-blue-600">
+                </div>
+            </div>
+            <button onclick="addSubscription()" class="mt-6 w-full bg-blue-700 hover:bg-blue-600 text-white font-semibold py-3.5 rounded-xl transition-all">Save Subscription</button>
+        </div>
+    </div>
+
+    <!-- Floating Chat (opens WhatsApp) -->
+    <a href="https://wa.link/71id1z" target="_blank" title="Chat with us" aria-label="Chat with us"
+       class="float-chat fixed bottom-6 right-6 z-40 w-14 h-14 rounded-full flex items-center justify-center transition-all hover:scale-105">
+        <i class="fa-solid fa-comments text-2xl"></i>
+    </a>
+
+    <!-- Back to Top -->
+    <button id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to top" aria-label="Back to top"
+            class="fixed bottom-6 left-6 z-40 w-11 h-11 rounded-full flex items-center justify-center shadow-lg transition-all">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Cart Sidebar -->
+    <div id="cart-sidebar" class="hidden fixed inset-0 z-50">
+        <div class="absolute inset-0 bg-black/60 backdrop-blur-sm" onclick="toggleCart()"></div>
+        <div class="absolute right-0 top-0 h-full w-full max-w-md bg-zinc-900 border-l border-zinc-700 flex flex-col">
+            <div class="px-5 py-4 border-b border-zinc-800 flex items-center justify-between">
+                <div class="font-semibold text-lg flex items-center gap-2">
+                    <i class="fa-solid fa-cart-shopping"></i> Your Cart
+                </div>
+                <button onclick="toggleCart()" class="text-zinc-400 hover:text-white text-2xl">&times;</button>
+            </div>
+            <div id="cart-items" class="flex-1 overflow-y-auto p-5 space-y-3"></div>
+            <div class="p-5 border-t border-zinc-800 space-y-3">
+                <!-- Promo Code Section -->
+                <div id="promo-section">
+                    <div class="flex gap-2">
+                        <input id="promo-input" type="text" placeholder="Enter promo code" 
+                               class="flex-1 bg-zinc-950 border border-zinc-700 rounded-xl px-3 py-2.5 text-sm focus:outline-none focus:border-emerald-500 uppercase tracking-wider"
+                               onkeydown="if(event.key==='Enter')applyPromo()">
+                        <button onclick="applyPromo()" class="bg-zinc-800 hover:bg-zinc-700 text-sm font-medium px-4 py-2.5 rounded-xl transition-all">Apply</button>
+                    </div>
+                    <div id="promo-message" class="text-xs mt-2 hidden"></div>
+                </div>
+
+                <!-- Totals -->
+                <div class="space-y-1.5 pt-1">
+                    <div class="flex justify-between text-sm text-zinc-400">
+                        <span>Subtotal</span>
+                        <span id="cart-subtotal">₦0</span>
+                    </div>
+                    <div id="cart-discount-row" class="flex justify-between text-sm text-emerald-400 hidden">
+                        <span>Discount (3%)</span>
+                        <span id="cart-discount">−₦0</span>
+                    </div>
+                    <div class="flex justify-between items-center pt-1">
+                        <span class="font-medium">Total</span>
+                        <span id="cart-total" class="text-2xl font-bold">₦0</span>
+                    </div>
+                </div>
+
+                <button onclick="checkoutWhatsApp()" class="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-semibold py-3.5 rounded-xl flex items-center justify-center gap-2 transition-all">
+                    <i class="fa-brands fa-whatsapp"></i> Send Order via WhatsApp
+                </button>
+                <button onclick="clearCart()" class="w-full text-sm text-zinc-400 hover:text-white py-2">Clear Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sunday Promo Floating Banner -->
+    <div id="promo-banner" class="hidden fixed bottom-24 left-4 right-4 sm:left-auto sm:right-6 sm:w-80 z-40">
+        <div class="bg-blue-600 text-white rounded-2xl p-4 shadow-lg relative">
+            <button onclick="dismissPromoBanner()" class="absolute top-2 right-3 text-white/70 hover:text-white text-lg leading-none" aria-label="Dismiss">&times;</button>
+            <div class="flex items-start gap-3 pr-5">
+                <div class="w-10 h-10 bg-white/20 rounded-xl flex items-center justify-center text-xl shrink-0">
+                    <i class="fa-solid fa-gift"></i>
+                </div>
+                <div class="min-w-0 flex-1">
+                    <div id="promo-banner-name" class="font-semibold text-sm">Promo is live!</div>
+                    <p id="promo-banner-hint" class="text-xs text-white/85 mt-1 leading-relaxed">3% off · Tap code to copy</p>
+                    <button type="button" onclick="copyPromoCode()"
+                            class="mt-3 w-full flex items-center justify-between gap-2 bg-white/15 hover:bg-white/25 border border-white/30 rounded-xl px-3 py-2.5 transition-all"
+                            title="Tap to copy code">
+                        <span id="promo-banner-code" class="font-mono font-bold tracking-wider text-sm">------</span>
+                        <span class="text-[11px] font-semibold flex items-center gap-1 opacity-90">
+                            <i class="fa-regular fa-copy"></i> Copy
+                        </span>
+                    </button>
+                    <p id="promo-copy-toast" class="hidden text-[11px] mt-2 text-emerald-200 font-medium">Code copied!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Main JavaScript -->
+    <script src="js/main.js?v=20260922usd"></script>
+</body>
+</html>

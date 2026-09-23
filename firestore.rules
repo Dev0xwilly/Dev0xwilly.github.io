@@ -1,0 +1,44 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function isAdmin() {
+      return request.auth != null
+        && request.auth.token.email in [
+          'amazawilliam@gmail.com',
+          'admin@subhub.com'
+        ];
+    }
+
+    match /users/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+      allow read: if isAdmin();
+
+      match /subscriptions/{subId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+        allow read, update: if isAdmin();
+      }
+    }
+
+    match /reviews/{reviewId} {
+      allow read: if true;
+      allow create: if true;
+    }
+
+    match /orders/{orderId} {
+      allow create: if true;
+      allow read, update: if isAdmin();
+      allow read: if request.auth != null
+        && resource.data.customerUid == request.auth.uid;
+    }
+
+    match /notifications/{notifId} {
+      allow create: if true;
+      allow read, update: if request.auth != null && (
+        resource.data.toUid == request.auth.uid
+        || (resource.data.toRole == 'admin' && isAdmin())
+        || isAdmin()
+      );
+    }
+  }
+}
