@@ -43,7 +43,7 @@ Built with **React 19**, **TypeScript**, **Tailwind CSS v4**, and **Vite** for b
 - **Taunt Live**: Official Ambassador and **Top 5 Ambassador Content Creator** for an innovative crypto prediction market platform.
 - **Web3 Creator on X**: Growing community of 2,000+ followers sharing insights, project reviews, and crypto commentary.
 
-### 4. 🐍 Python Back-End Journey
+### 4.  Python Back-End Journey
 - Actively mastering Python to expand into full-stack development, focusing on REST APIs with Django, database pipelines, and automation scripting for business workflows.
 
 ---
